@@ -231,10 +231,10 @@
     {
       "name": "continue",
       "tmpl": "continue.png",
-      "region": [1565, 999, 1610, 1045],
-      "threshold": 0.90,
-      "clickX": 1737, "clickY": 1020,
-      "sigmaX": 8, "sigmaY": 6,        
+      "region": [258, 163, 271, 176],
+      "threshold": 0.80,
+      "clickX": 288, "clickY": 170,
+      "sigmaX": 5, "sigmaY": 5,        
       "cooldownMs": 1000, "tapMs": 130
     },
     {
