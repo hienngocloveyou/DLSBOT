@@ -222,8 +222,8 @@
     {
       "name": "resume",
       "tmpl": "resume.png",
-      "region": [134, 118, 220, 192],
-      "threshold": 0.90,
+      "region": [160, 137, 188, 165],
+      "threshold": 0.80,
       "clickX": 238, "clickY": 155,
       "sigmaX": 5, "sigmaY": 5,        
       "cooldownMs": 1000, "tapMs": 130
