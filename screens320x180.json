@@ -76,10 +76,10 @@
     {
       "name": "challe",
       "tmpl": "challe.png",
-      "region": [680, 580, 815, 660],
-      "threshold": 0.90,
-      "clickX": 250, "clickY": 985,
-      "sigmaX": 50, "sigmaY": 50,
+      "region": [112, 95, 150, 113],
+      "threshold": 0.80,
+      "clickX": 40, "clickY": 165,
+      "sigmaX": 5, "sigmaY": 5,
       "cooldownMs": 1000, "tapMs": 130
     },
     {
