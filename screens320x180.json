@@ -103,10 +103,10 @@
     {
       "name": "stadium",
       "tmpl": "stadium.png",
-      "region": [1000, 585, 1145, 655],
-      "threshold": 0.90,
-      "clickX": 1680, "clickY": 980,
-      "sigmaX": 50, "sigmaY": 50,
+      "region": [128, 96, 158, 111],
+      "threshold": 0.80,
+      "clickX": 280, "clickY": 165,
+      "sigmaX": 5, "sigmaY": 5,
       "cooldownMs": 1000, "tapMs": 130
     },
     {
