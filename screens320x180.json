@@ -170,7 +170,7 @@
       "region": [5, 22, 40, 32],
       "threshold": 0.90,
       "clickX": 90, "clickY": 50,
-      "sigmaX": 10, "sigmaY": 10,
+      "sigmaX": 5, "sigmaY": 5,
       "cooldownMs": 1000, "tapMs": 130
     },
     {
@@ -179,7 +179,7 @@
       "region": [8, 20, 25, 38],
       "threshold": 0.90,
       "clickX": 90, "clickY": 50,
-      "sigmaX": 10, "sigmaY": 10,
+      "sigmaX": 5, "sigmaY": 5,
       "cooldownMs": 1000, "tapMs": 130
     },
     {
@@ -215,17 +215,17 @@
       "region": [280, 165, 300, 175],
       "threshold": 0.90,
       "autoClick": true,
-      "sigmaX": 10, "sigmaY": 10,        
+      "sigmaX": 5, "sigmaY": 5,        
       "cooldownMs": 1000, "tapMs": 130,
       "action": "patchCamera"
     },
     {
       "name": "resume",
       "tmpl": "resume.png",
-      "region": [164, 143, 185, 167],
+      "region": [134, 118, 220, 192],
       "threshold": 0.90,
       "clickX": 238, "clickY": 155,
-      "sigmaX": 10, "sigmaY": 10,        
+      "sigmaX": 5, "sigmaY": 5,        
       "cooldownMs": 1000, "tapMs": 130
     },
     {
