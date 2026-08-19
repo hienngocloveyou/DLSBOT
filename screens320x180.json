@@ -204,7 +204,7 @@
       "name": "injured",
       "tmpl": "okgreen.png",
       "region": [158, 113, 172, 123],
-      "threshold": 0.90,
+      "threshold": 0.80,
       "autoClick": true,
       "sigmaX": 2, "sigmaY": 2,
       "cooldownMs": 1000, "tapMs": 130
