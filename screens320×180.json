@@ -163,22 +163,23 @@
       "sigmaX": 5, "sigmaY": 5,
       "cooldownMs": 1000, "tapMs": 130
     },
+	
     {
       "name": "career",
       "tmpl": "career.png",
       "region": [5, 22, 40, 32],
       "threshold": 0.90,
       "clickX": 90, "clickY": 50,
-      "sigmaX": 50, "sigmaY": 50,
+      "sigmaX": 10, "sigmaY": 10,
       "cooldownMs": 1000, "tapMs": 130
     },
     {
       "name": "playnow",
       "tmpl": "playnow.png",
-      "region": [40, 140, 150, 225],
+      "region": [8, 20, 25, 38],
       "threshold": 0.90,
-      "clickX": 400, "clickY": 300,
-      "sigmaX": 50, "sigmaY": 50,
+      "clickX": 90, "clickY": 50,
+      "sigmaX": 10, "sigmaY": 10,
       "cooldownMs": 1000, "tapMs": 130
     },
     {
@@ -211,20 +212,20 @@
     {
       "name": "play",
       "tmpl": "play.png",
-      "region": [1710, 1000, 1795, 1035],
+      "region": [280, 165, 300, 175],
       "threshold": 0.90,
       "autoClick": true,
-      "sigmaX": 8, "sigmaY": 6,        
+      "sigmaX": 10, "sigmaY": 10,        
       "cooldownMs": 1000, "tapMs": 130,
       "action": "patchCamera"
     },
     {
       "name": "resume",
       "tmpl": "resume.png",
-      "region": [1369, 888, 1430, 920],
+      "region": [164, 143, 185, 167],
       "threshold": 0.90,
-      "clickX": 1428, "clickY": 905,
-      "sigmaX": 8, "sigmaY": 6,        
+      "clickX": 238, "clickY": 155,
+      "sigmaX": 10, "sigmaY": 10,        
       "cooldownMs": 1000, "tapMs": 130
     },
     {
@@ -239,10 +240,10 @@
     {
       "name": "backgame",
       "tmpl": "backgame.png",
-      "region": [40, 20, 95, 75],
+      "region": [6, 2, 16, 13],
       "threshold": 0.90,
       "autoClick": true,
-      "sigmaX": 5, "sigmaY": 5,
+      "sigmaX": 2, "sigmaY": 2,
       "cooldownMs": 1000, "tapMs": 130
     },
     {
