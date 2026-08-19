@@ -129,7 +129,7 @@
     },
     {
       "name": "custom1",
-      "tmpl": "custom.png",
+      "tmpl": "custom1.png",
       "region": [99, 113, 132, 129],
       "threshold": 0.80,
       "clickX": 245, "clickY": 57,
