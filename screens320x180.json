@@ -31,10 +31,10 @@
     {
       "name": "event",
       "tmpl": "xred.png",
-      "region": [1625, 130, 1685, 190],
-      "threshold": 0.90,
+      "region": [295, 8, 310, 23],
+      "threshold": 0.80,
       "autoClick": true,
-      "sigmaX": 5, "sigmaY": 5,
+      "sigmaX": 1, "sigmaY": 1,
       "cooldownMs": 1000, "tapMs": 130
     },
     {
@@ -85,10 +85,10 @@
     {
       "name": "transfer",
       "tmpl": "transfer.png",
-      "region": [715, 585, 830, 660],
-      "threshold": 0.90,
-      "clickX": 1215, "clickY": 980,
-      "sigmaX": 50, "sigmaY": 50,
+      "region": [117, 95, 152, 110],
+      "threshold": 0.80,
+      "clickX": 200, "clickY": 164,
+      "sigmaX": 5, "sigmaY": 5,
       "cooldownMs": 1000, "tapMs": 130
     },
     {
