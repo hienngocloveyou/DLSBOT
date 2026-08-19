@@ -22,10 +22,10 @@
     {
       "name": "toppick",
       "tmpl": "xred.png",
-      "region": [1455, 135, 1505, 185],
-      "threshold": 0.90,
+      "region": [239, 18, 255, 34],
+      "threshold": 0.80,
       "autoClick": true,
-      "sigmaX": 5, "sigmaY": 5,
+      "sigmaX": 1, "sigmaY": 1,
       "cooldownMs": 1000, "tapMs": 130
     },
     {
