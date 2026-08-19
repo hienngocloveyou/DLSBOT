@@ -214,7 +214,7 @@
       "region": [1710, 1000, 1795, 1035],
       "threshold": 0.90,
       "autoClick": true,
-      "sigmaX": 50, "sigmaY": 50,
+      "sigmaX": 8, "sigmaY": 6,        
       "cooldownMs": 1000, "tapMs": 130,
       "action": "patchCamera"
     },
@@ -224,7 +224,7 @@
       "region": [1369, 888, 1430, 920],
       "threshold": 0.90,
       "clickX": 1428, "clickY": 905,
-      "sigmaX": 50, "sigmaY": 50,
+      "sigmaX": 8, "sigmaY": 6,        
       "cooldownMs": 1000, "tapMs": 130
     },
     {
@@ -233,7 +233,7 @@
       "region": [1565, 999, 1610, 1045],
       "threshold": 0.90,
       "clickX": 1737, "clickY": 1020,
-      "sigmaX": 50, "sigmaY": 50,
+      "sigmaX": 8, "sigmaY": 6,        
       "cooldownMs": 1000, "tapMs": 130
     },
     {
