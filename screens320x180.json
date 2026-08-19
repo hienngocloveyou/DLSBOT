@@ -130,10 +130,10 @@
     {
       "name": "custom1",
       "tmpl": "custom.png",
-      "region": [605, 688, 725, 757],
-      "threshold": 0.90,
-      "clickX": 1450, "clickY": 360,
-      "sigmaX": 50, "sigmaY": 50,
+      "region": [99, 113, 132, 129],
+      "threshold": 0.80,
+      "clickX": 245, "clickY": 57,
+      "sigmaX": 5, "sigmaY": 5,
       "cooldownMs": 1000, "tapMs": 130
     },
     {
