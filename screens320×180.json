@@ -1,0 +1,347 @@
+{
+  "version": 1,
+  "screens": [
+    {
+      "name": "social",
+      "tmpl": "xred.png",
+      "region": [1377, 309, 1437, 369],
+      "threshold": 0.90,
+      "autoClick": true,
+      "sigmaX": 5, "sigmaY": 5,
+      "cooldownMs": 1000, "tapMs": 130
+    },
+    {
+      "name": "specialoffer",
+      "tmpl": "xred.png",
+      "region": [1240, 150, 1300, 210],
+      "threshold": 0.90,
+      "autoClick": true,
+      "sigmaX": 5, "sigmaY": 5,
+      "cooldownMs": 1000, "tapMs": 130
+    },
+    {
+      "name": "toppick",
+      "tmpl": "xred.png",
+      "region": [1455, 135, 1505, 185],
+      "threshold": 0.90,
+      "autoClick": true,
+      "sigmaX": 5, "sigmaY": 5,
+      "cooldownMs": 1000, "tapMs": 130
+    },
+    {
+      "name": "event",
+      "tmpl": "xred.png",
+      "region": [1625, 130, 1685, 190],
+      "threshold": 0.90,
+      "autoClick": true,
+      "sigmaX": 5, "sigmaY": 5,
+      "cooldownMs": 1000, "tapMs": 130
+    },
+    {
+      "name": "discardblue",
+      "tmpl": "discardblue.png",
+      "region": [630, 910, 680, 950],
+      "threshold": 0.90,
+      "autoClick": true,
+      "sigmaX": 5, "sigmaY": 5,
+      "cooldownMs": 1000, "tapMs": 130
+    },
+    {
+      "name": "scoutresult",
+      "tmpl": "xbluebig.png",
+      "region": [644, 812, 710, 870],
+      "threshold": 0.90,
+      "autoClick": true,
+      "sigmaX": 5, "sigmaY": 5,
+      "cooldownMs": 1000, "tapMs": 130
+    },
+    {
+      "name": "seasonpass",
+      "tmpl": "ssp.png",
+      "region": [1140, 140, 1205, 192],
+      "threshold": 0.90,
+      "clickX": 1869, "clickY": 64,
+      "sigmaX": 2, "sigmaY": 2,
+      "cooldownMs": 1000, "tapMs": 130
+    },
+    {
+      "name": "team",
+      "tmpl": "team.png",
+      "region": [595, 590, 690, 650],
+      "threshold": 0.90,
+      "clickX": 725, "clickY": 985,
+      "sigmaX": 50, "sigmaY": 50,
+      "cooldownMs": 1000, "tapMs": 130
+    },
+    {
+      "name": "challe",
+      "tmpl": "challe.png",
+      "region": [680, 580, 815, 660],
+      "threshold": 0.90,
+      "clickX": 250, "clickY": 985,
+      "sigmaX": 50, "sigmaY": 50,
+      "cooldownMs": 1000, "tapMs": 130
+    },
+    {
+      "name": "transfer",
+      "tmpl": "transfer.png",
+      "region": [715, 585, 830, 660],
+      "threshold": 0.90,
+      "clickX": 1215, "clickY": 980,
+      "sigmaX": 50, "sigmaY": 50,
+      "cooldownMs": 1000, "tapMs": 130
+    },
+    {
+      "name": "transferx",
+      "tmpl": "xred.png",
+      "region": [1375, 185, 1440, 250],
+      "threshold": 0.90,
+      "autoClick": true,
+      "sigmaX": 5, "sigmaY": 5,
+      "cooldownMs": 1000, "tapMs": 130
+    },
+    {
+      "name": "stadium",
+      "tmpl": "stadium.png",
+      "region": [1000, 585, 1145, 655],
+      "threshold": 0.90,
+      "clickX": 1680, "clickY": 980,
+      "sigmaX": 50, "sigmaY": 50,
+      "cooldownMs": 1000, "tapMs": 130
+    },
+    {
+      "name": "stadium1",
+      "tmpl": "stadium1.png",
+      "region": [950, 715, 1050, 750],
+      "threshold": 0.90,
+      "clickX": 500, "clickY": 580,
+      "sigmaX": 50, "sigmaY": 50,
+      "cooldownMs": 1000, "tapMs": 130
+    },
+    {
+      "name": "custom",
+      "tmpl": "custom.png",
+      "region": [725, 585, 845, 655],
+      "threshold": 0.90,
+      "clickX": 1675, "clickY": 980,
+      "sigmaX": 50, "sigmaY": 50,
+      "cooldownMs": 1000, "tapMs": 130
+    },
+    {
+      "name": "custom1",
+      "tmpl": "custom.png",
+      "region": [605, 688, 725, 757],
+      "threshold": 0.90,
+      "clickX": 1450, "clickY": 360,
+      "sigmaX": 50, "sigmaY": 50,
+      "cooldownMs": 1000, "tapMs": 130
+    },
+    {
+      "name": "league live",
+      "tmpl": "xredbig.png",
+      "region": [595, 881, 660, 940],
+      "threshold": 0.90,
+      "autoClick": true,
+      "sigmaX": 5, "sigmaY": 5,
+      "cooldownMs": 1000, "tapMs": 130
+    },
+    {
+      "name": "scenario",
+      "tmpl": "xred.png",
+      "region": [1730, 115, 1780, 170],
+      "threshold": 0.90,
+      "autoClick": true,
+      "sigmaX": 5, "sigmaY": 5,
+      "cooldownMs": 1000, "tapMs": 130
+    },
+    {
+      "name": "scenario1",
+      "tmpl": "xredbig.png",
+      "region": [590, 880, 665, 945],
+      "threshold": 0.90,
+      "autoClick": true,
+      "sigmaX": 5, "sigmaY": 5,
+      "cooldownMs": 1000, "tapMs": 130
+    },
+    {
+      "name": "career",
+      "tmpl": "career.png",
+      "region": [5, 22, 40, 32],
+      "threshold": 0.90,
+      "clickX": 90, "clickY": 50,
+      "sigmaX": 50, "sigmaY": 50,
+      "cooldownMs": 1000, "tapMs": 130
+    },
+    {
+      "name": "playnow",
+      "tmpl": "playnow.png",
+      "region": [40, 140, 150, 225],
+      "threshold": 0.90,
+      "clickX": 400, "clickY": 300,
+      "sigmaX": 50, "sigmaY": 50,
+      "cooldownMs": 1000, "tapMs": 130
+    },
+    {
+      "name": "dp",
+      "tmpl": "xred.png",
+      "region": [1730, 145, 1785, 200],
+      "threshold": 0.90,
+      "autoClick": true,
+      "sigmaX": 5, "sigmaY": 5,
+      "cooldownMs": 1000, "tapMs": 130
+    },
+    {
+      "name": "100game",
+      "tmpl": "100break.png",
+      "region": [660, 345, 785, 423],
+      "threshold": 0.90,
+      "autoClick": true,
+      "sigmaX": 5, "sigmaY": 5,
+      "cooldownMs": 1000, "tapMs": 130
+    },
+    {
+      "name": "injured",
+      "tmpl": "okgreen.png",
+      "region": [960, 680, 1030, 730],
+      "threshold": 0.90,
+      "autoClick": true,
+      "sigmaX": 20, "sigmaY": 20,
+      "cooldownMs": 1000, "tapMs": 130
+    },
+    {
+      "name": "play",
+      "tmpl": "play.png",
+      "region": [1710, 1000, 1795, 1035],
+      "threshold": 0.90,
+      "autoClick": true,
+      "sigmaX": 8, "sigmaY": 6,        
+      "cooldownMs": 1000, "tapMs": 130,
+      "action": "patchCamera"
+    },
+    {
+      "name": "resume",
+      "tmpl": "resume.png",
+      "region": [1369, 888, 1430, 920],
+      "threshold": 0.90,
+      "clickX": 1428, "clickY": 905,
+      "sigmaX": 8, "sigmaY": 6,        
+      "cooldownMs": 1000, "tapMs": 130
+    },
+    {
+      "name": "continue",
+      "tmpl": "continue.png",
+      "region": [1565, 999, 1610, 1045],
+      "threshold": 0.90,
+      "clickX": 1737, "clickY": 1020,
+      "sigmaX": 8, "sigmaY": 6,        
+      "cooldownMs": 1000, "tapMs": 130
+    },
+    {
+      "name": "backgame",
+      "tmpl": "backgame.png",
+      "region": [40, 20, 95, 75],
+      "threshold": 0.90,
+      "autoClick": true,
+      "sigmaX": 5, "sigmaY": 5,
+      "cooldownMs": 1000, "tapMs": 130
+    },
+    {
+      "name": "newdivision",
+      "tmpl": "newdivision.png",
+      "region": [190, 138, 269, 188],
+      "threshold": 0.90,
+      "clickX": 500, "clickY": 300,
+      "sigmaX": 50, "sigmaY": 50,
+      "cooldownMs": 1000, "tapMs": 130
+    },
+    {
+      "name": "tapcontinue",
+      "tmpl": "tapcontinue.png",
+      "region": [1086, 1020, 1145, 1070],
+      "threshold": 0.80,
+      "autoClick": true,
+      "sigmaX": 5, "sigmaY": 5,
+      "cooldownMs": 1000, "tapMs": 130
+    },
+    {
+      "name": "claimrewardend",
+      "tmpl": "claimrewardend.png",
+      "region": [1125, 615, 1190, 655],
+      "threshold": 0.80,
+      "autoClick": true,
+      "sigmaX": 5, "sigmaY": 5,
+      "cooldownMs": 1000, "tapMs": 130
+    },
+    {
+      "name": "claimchild1",
+      "tmpl": "claimchild.png",
+      "region": [1345, 250, 1395, 285],
+      "threshold": 0.80,
+      "autoClick": true,
+      "sigmaX": 5, "sigmaY": 5,
+      "cooldownMs": 1000, "tapMs": 130
+    },
+    {
+      "name": "claimchild2",
+      "tmpl": "claimchild.png",
+      "region": [1345, 460, 1395, 495],
+      "threshold": 0.80,
+      "autoClick": true,
+      "sigmaX": 5, "sigmaY": 5,
+      "cooldownMs": 1000, "tapMs": 130
+    },
+    {
+      "name": "claimchild3",
+      "tmpl": "claimchild.png",
+      "region": [1345, 670, 1395, 705],
+      "threshold": 0.80,
+      "autoClick": true,
+      "sigmaX": 5, "sigmaY": 5,
+      "cooldownMs": 1000, "tapMs": 130
+    },
+    {
+      "name": "claimchild4",
+      "tmpl": "claimchild.png",
+      "region": [1345, 880, 1395, 915],
+      "threshold": 0.80,
+      "autoClick": true,
+      "sigmaX": 5, "sigmaY": 5,
+      "cooldownMs": 1000, "tapMs": 130
+    },
+    {
+      "name": "tapcontinue1",
+      "tmpl": "tapcontinue1.png",
+      "region": [1110, 1030, 1150, 1065],
+      "threshold": 0.80,
+      "autoClick": true,
+      "sigmaX": 5, "sigmaY": 5,
+      "cooldownMs": 1000, "tapMs": 130
+    }
+  ],
+  "templates": [
+    { "name": "xred.png" },
+    { "name": "xredbig.png" },
+    { "name": "xbluebig.png" },
+    { "name": "discardblue.png" },
+    { "name": "ssp.png" },
+    { "name": "team.png" },
+    { "name": "challe.png" },
+    { "name": "transfer.png" },
+    { "name": "stadium.png" },
+    { "name": "stadium1.png" },
+    { "name": "custom.png" },
+    { "name": "career.png" },
+    { "name": "playnow.png" },
+    { "name": "100break.png" },
+    { "name": "okgreen.png" },
+    { "name": "play.png" },
+    { "name": "resume.png" },
+    { "name": "continue.png" },
+    { "name": "backgame.png" },
+    { "name": "newdivision.png" },
+    { "name": "tapcontinue.png" },
+    { "name": "tapcontinue1.png" },
+    { "name": "claimrewardend.png" },
+    { "name": "claimchild.png" }
+  ]
+}
