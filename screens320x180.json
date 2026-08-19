@@ -203,10 +203,10 @@
     {
       "name": "injured",
       "tmpl": "okgreen.png",
-      "region": [960, 680, 1030, 730],
+      "region": [158, 113, 172, 123],
       "threshold": 0.90,
       "autoClick": true,
-      "sigmaX": 20, "sigmaY": 20,
+      "sigmaX": 2, "sigmaY": 2,
       "cooldownMs": 1000, "tapMs": 130
     },
     {
