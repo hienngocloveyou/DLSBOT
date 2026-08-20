@@ -174,10 +174,10 @@
     },
 	{
       "name": "formboost",
-      "tmpl": "usebiggreen.png",
-      "region": [79, 148, 98, 158],
+      "tmpl": "formboost.png",
+      "region": [75, 105, 103, 111],
       "threshold": 0.80,
-      "autoClick": true,
+      "clickX": 89, "clickY": 154,
       "sigmaX": 1, "sigmaY": 1,
       "cooldownMs": 1000, "tapMs": 130
     },
@@ -359,7 +359,7 @@
     { "name": "xred.png" },
     { "name": "xredbig.png" },
 	{ "name": "development.png" },
-	{ "name": "usebiggreen.png" },
+	{ "name": "formboost.png" },
     { "name": "xbluebig.png" },
     { "name": "discardblue.png" },
     { "name": "ssp.png" },
