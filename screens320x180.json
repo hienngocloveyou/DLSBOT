@@ -67,15 +67,14 @@
       "cooldownMs": 1000, "tapMs": 130
     },
     {
-      "name": "transfer",
-      "tmpl": "transfer.png",
-      "region": [117, 95, 152, 110],
-      "threshold": 0.80,
-      "clickX": 200, "clickY": 164,
+      "name": "transferx",
+      "tmpl": "xred.png",
+      "region": [1375, 185, 1440, 250],
+      "threshold": 0.90,
+      "autoClick": true,
       "sigmaX": 5, "sigmaY": 5,
       "cooldownMs": 1000, "tapMs": 130
     },
-    
     {
       "name": "stadium",
       "tmpl": "stadium.png",
@@ -150,10 +149,10 @@
     },
 	{
       "name": "formboost",
-      "tmpl": "formboost.png",
-      "region": [75, 105, 103, 111],
+      "tmpl": "usebiggreen.png",
+      "region": [81, 149, 97, 158],
       "threshold": 0.80,
-      "clickX": 89, "clickY": 154,
+      "autoClick": true,
       "sigmaX": 1, "sigmaY": 1,
       "cooldownMs": 1000, "tapMs": 130
     },
@@ -335,7 +334,7 @@
     { "name": "xred.png" },
     { "name": "xredbig.png" },
 	{ "name": "development.png" },
-	{ "name": "formboost.png" },
+	{ "name": "usebiggreen.png" },
     { "name": "xbluebig.png" },
     { "name": "discardblue.png" },
     { "name": "ssp.png" },
@@ -345,6 +344,7 @@
     { "name": "stadium.png" },
     { "name": "stadium1.png" },
     { "name": "custom.png" },
+	{ "name": "custom1.png" },
     { "name": "career.png" },
     { "name": "playnow.png" },
     { "name": "100break.png" },
