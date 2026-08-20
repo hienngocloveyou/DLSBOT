@@ -308,7 +308,7 @@
     {
       "name": "claimchild3",
       "tmpl": "claimchild.png",
-      "region": [223, 109, 256, 120],
+      "region": [222, 107, 258, 122],
       "threshold": 0.80,
       "autoClick": true,
       "sigmaX": 1, "sigmaY": 1,
