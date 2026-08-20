@@ -281,46 +281,46 @@
     {
       "name": "claimrewardend",
       "tmpl": "claimrewardend.png",
-      "region": [1125, 615, 1190, 655],
+      "region": [187, 102, 212, 110],
       "threshold": 0.80,
       "autoClick": true,
-      "sigmaX": 5, "sigmaY": 5,
+      "sigmaX": 1, "sigmaY": 1,
       "cooldownMs": 1000, "tapMs": 130
     },
     {
       "name": "claimchild1",
       "tmpl": "claimchild.png",
-      "region": [1345, 250, 1395, 285],
+      "region": [223, 39, 256, 50],
       "threshold": 0.80,
       "autoClick": true,
-      "sigmaX": 5, "sigmaY": 5,
+      "sigmaX": 1, "sigmaY": 1,
       "cooldownMs": 1000, "tapMs": 130
     },
     {
       "name": "claimchild2",
       "tmpl": "claimchild.png",
-      "region": [1345, 460, 1395, 495],
+      "region": [223, 74, 256, 85],
       "threshold": 0.80,
       "autoClick": true,
-      "sigmaX": 5, "sigmaY": 5,
+      "sigmaX": 1, "sigmaY": 1,
       "cooldownMs": 1000, "tapMs": 130
     },
     {
       "name": "claimchild3",
       "tmpl": "claimchild.png",
-      "region": [1345, 670, 1395, 705],
+      "region": [223, 109, 256, 120],
       "threshold": 0.80,
       "autoClick": true,
-      "sigmaX": 5, "sigmaY": 5,
+      "sigmaX": 1, "sigmaY": 1,
       "cooldownMs": 1000, "tapMs": 130
     },
     {
       "name": "claimchild4",
       "tmpl": "claimchild.png",
-      "region": [1345, 880, 1395, 915],
+      "region": [223, 144, 256, 155],
       "threshold": 0.80,
       "autoClick": true,
-      "sigmaX": 5, "sigmaY": 5,
+      "sigmaX": 1, "sigmaY": 1,
       "cooldownMs": 1000, "tapMs": 130
     },
     {
