@@ -166,7 +166,7 @@
 	{
       "name": "development2",
       "tmpl": "development.png",
-      "region": [164, 113, 210, 127],
+      "region": [164, 113, 208, 128],
       "threshold": 0.80,
       "clickX": 40, "clickY": 120,
       "sigmaX": 1, "sigmaY": 1,
