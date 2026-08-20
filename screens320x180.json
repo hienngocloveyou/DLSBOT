@@ -253,10 +253,10 @@
     {
       "name": "newdivision",
       "tmpl": "newdivision.png",
-      "region": [190, 138, 269, 188],
-      "threshold": 0.90,
-      "clickX": 500, "clickY": 300,
-      "sigmaX": 50, "sigmaY": 50,
+      "region": [6, 22, 52, 32],
+      "threshold": 0.80,
+      "clickX": 70, "clickY": 50,
+      "sigmaX": 5, "sigmaY": 5,
       "cooldownMs": 1000, "tapMs": 130
     },
     {
