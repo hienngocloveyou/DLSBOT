@@ -175,7 +175,7 @@
 	{
       "name": "formboost",
       "tmpl": "usebiggreen.png",
-      "region": [82, 150, 96, 157],
+      "region": [79, 148, 98, 158],
       "threshold": 0.80,
       "autoClick": true,
       "sigmaX": 1, "sigmaY": 1,
