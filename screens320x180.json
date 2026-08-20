@@ -139,10 +139,10 @@
     {
       "name": "league live",
       "tmpl": "xredbig.png",
-      "region": [595, 881, 660, 940],
-      "threshold": 0.90,
+      "region": [98, 145, 111, 158],
+      "threshold": 0.80,
       "autoClick": true,
-      "sigmaX": 5, "sigmaY": 5,
+      "sigmaX": 1, "sigmaY": 1,
       "cooldownMs": 1000, "tapMs": 130
     },
     {
