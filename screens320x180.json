@@ -86,6 +86,15 @@
       "sigmaX": 5, "sigmaY": 5,
       "cooldownMs": 1000, "tapMs": 130
     },
+	{
+      "name": "upgradestadium",
+      "tmpl": "okgreen.png",
+      "region": [159, 139, 172, 147],
+      "threshold": 0.80,
+      "autoClick": true,
+      "sigmaX": 1, "sigmaY": 1,
+      "cooldownMs": 1000, "tapMs": 130
+    },
     {
       "name": "custom",
       "tmpl": "custom.png",
@@ -332,6 +341,7 @@
       "sigmaX": 1, "sigmaY": 1,
       "cooldownMs": 1000, "tapMs": 130
     }
+	
   ],
   "templates": [
     { "name": "xred.png" },
