@@ -168,6 +168,16 @@
       "cooldownMs": 1000, "tapMs": 130
     },
 	
+	{
+      "name": "dreamdraft",
+      "tmpl": "dreamdraft.png",
+      "region": [42, 96, 96, 111],
+      "threshold": 0.80,
+      "clickX": 280, "clickY": 49,
+      "sigmaX": 5, "sigmaY": 5,
+      "cooldownMs": 1000, "tapMs": 130
+    },
+	
     {
       "name": "career",
       "tmpl": "career.png",
@@ -338,6 +348,7 @@
     { "name": "stadium1.png" },
     { "name": "custom.png" },
 	{ "name": "custom1.png" },
+	{ "name": "dreamdraft.png" },
     { "name": "career.png" },
     { "name": "playnow.png" },
     { "name": "100break.png" },
