@@ -223,6 +223,15 @@
       "sigmaX": 5, "sigmaY": 5,
       "cooldownMs": 1000, "tapMs": 130
     },
+	{
+      "name": "physios1",
+      "tmpl": "physios.png",
+      "region": [126, 112, 194, 127],
+      "threshold": 0.80,
+      "clickX": 32, "clickY": 63,
+      "sigmaX": 1, "sigmaY": 1,
+      "cooldownMs": 1000, "tapMs": 130
+    },
 	
     {
       "name": "career",
