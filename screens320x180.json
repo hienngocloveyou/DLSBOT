@@ -113,6 +113,15 @@
       "sigmaX": 1, "sigmaY": 1,
       "cooldownMs": 1000, "tapMs": 130
     },
+	{
+      "name": "upgradestadium3",
+      "tmpl": "stadiumicon.png",
+      "region": [174, 113, 188, 127],
+      "threshold": 0.80,
+      "clickX": 120, "clickY": 118,
+      "sigmaX": 1, "sigmaY": 1,
+      "cooldownMs": 1000, "tapMs": 130
+    },
     {
       "name": "custom",
       "tmpl": "custom.png",
@@ -375,6 +384,7 @@
     { "name": "stadium.png" },
     { "name": "stadium1.png" },
 	{ "name": "upgradestadium1.png" },
+	{ "name": "stadiumicon.png" },
     { "name": "custom.png" },
 	{ "name": "custom1.png" },
 	{ "name": "dreamdraft.png" },
