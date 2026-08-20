@@ -163,6 +163,15 @@
       "sigmaX": 1, "sigmaY": 1,
       "cooldownMs": 1000, "tapMs": 130
     },
+	{
+      "name": "development2",
+      "tmpl": "development.png",
+      "region": [164, 113, 210, 127],
+      "threshold": 0.80,
+      "clickX": 40, "clickY": 120,
+      "sigmaX": 1, "sigmaY": 1,
+      "cooldownMs": 1000, "tapMs": 130
+    },
     {
       "name": "scenario",
       "tmpl": "xred.png",
