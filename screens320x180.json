@@ -214,6 +214,16 @@
       "cooldownMs": 1000, "tapMs": 130
     },
 	
+	{
+      "name": "physios",
+      "tmpl": "physios.png",
+      "region": [128, 96, 192, 111],
+      "threshold": 0.80,
+      "clickX": 120, "clickY": 160,
+      "sigmaX": 5, "sigmaY": 5,
+      "cooldownMs": 1000, "tapMs": 130
+    },
+	
     {
       "name": "career",
       "tmpl": "career.png",
