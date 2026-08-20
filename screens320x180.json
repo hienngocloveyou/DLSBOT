@@ -98,7 +98,7 @@
 	{
       "name": "upgradestadium1",
       "tmpl": "upgradestadium1.png",
-      "region": [62, 39, 125, 53],
+      "region": [61, 39, 127, 53],
       "threshold": 0.80,
       "clickX": 170, "clickY": 168,
       "sigmaX": 1, "sigmaY": 1,
