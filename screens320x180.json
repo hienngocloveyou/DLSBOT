@@ -30,33 +30,8 @@
       "sigmaX": 1, "sigmaY": 1,
       "cooldownMs": 1000, "tapMs": 130
     },
-    {
-      "name": "scoutresult",
-      "tmpl": "xbluebig.png",
-      "region": [644, 812, 710, 870],
-      "threshold": 0.90,
-      "autoClick": true,
-      "sigmaX": 5, "sigmaY": 5,
-      "cooldownMs": 1000, "tapMs": 130
-    },
-    {
-      "name": "seasonpass",
-      "tmpl": "ssp.png",
-      "region": [1140, 140, 1205, 192],
-      "threshold": 0.90,
-      "clickX": 1869, "clickY": 64,
-      "sigmaX": 2, "sigmaY": 2,
-      "cooldownMs": 1000, "tapMs": 130
-    },
-    {
-      "name": "team",
-      "tmpl": "team.png",
-      "region": [595, 590, 690, 650],
-      "threshold": 0.90,
-      "clickX": 725, "clickY": 985,
-      "sigmaX": 50, "sigmaY": 50,
-      "cooldownMs": 1000, "tapMs": 130
-    },
+   
+       
     {
       "name": "challe",
       "tmpl": "challe.png",
@@ -67,14 +42,15 @@
       "cooldownMs": 1000, "tapMs": 130
     },
     {
-      "name": "transferx",
-      "tmpl": "xred.png",
-      "region": [1375, 185, 1440, 250],
-      "threshold": 0.90,
-      "autoClick": true,
+      "name": "transfer",
+      "tmpl": "transfer.png",
+      "region": [117, 95, 152, 110],
+      "threshold": 0.80,
+      "clickX": 200, "clickY": 164,
       "sigmaX": 5, "sigmaY": 5,
       "cooldownMs": 1000, "tapMs": 130
     },
+    
     {
       "name": "stadium",
       "tmpl": "stadium.png",
@@ -150,7 +126,7 @@
 	{
       "name": "formboost",
       "tmpl": "usebiggreen.png",
-      "region": [81, 149, 97, 158],
+      "region": [80, 149, 97, 158],
       "threshold": 0.80,
       "autoClick": true,
       "sigmaX": 1, "sigmaY": 1,
