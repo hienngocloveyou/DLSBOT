@@ -149,7 +149,7 @@
       "name": "development",
       "tmpl": "development.png",
       "region": [97, 97, 142, 109],
-      "threshold": 0.80,
+      "threshold": 0.70,
       "clickX": 120, "clickY": 163,
       "sigmaX": 1, "sigmaY": 1,
       "cooldownMs": 1000, "tapMs": 130
