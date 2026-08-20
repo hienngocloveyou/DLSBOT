@@ -365,6 +365,7 @@
     { "name": "transfer.png" },
     { "name": "stadium.png" },
     { "name": "stadium1.png" },
+	{ "name": "upgradestadium1.png" },
     { "name": "custom.png" },
 	{ "name": "custom1.png" },
 	{ "name": "dreamdraft.png" },
