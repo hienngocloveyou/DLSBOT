@@ -42,7 +42,7 @@
       "name": "seasonpass",
       "tmpl": "ssp.png",
       "region": [189, 22, 225, 33],
-      "threshold": 0.90,
+      "threshold": 0.80,
       "clickX": 311, "clickY": 12,
       "sigmaX": 1, "sigmaY": 1,
       "cooldownMs": 1000, "tapMs": 130
@@ -189,10 +189,10 @@
     {
       "name": "dp",
       "tmpl": "xred.png",
-      "region": [1730, 145, 1785, 200],
-      "threshold": 0.90,
+      "region": [285, 22, 300, 36],
+      "threshold": 0.80,
       "autoClick": true,
-      "sigmaX": 5, "sigmaY": 5,
+      "sigmaX": 1, "sigmaY": 1,
       "cooldownMs": 1000, "tapMs": 130
     },
     {
