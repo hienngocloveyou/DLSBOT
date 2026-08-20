@@ -40,10 +40,10 @@
     {
       "name": "discardblue",
       "tmpl": "discardblue.png",
-      "region": [100, 150, 140, 160],
+      "region": [100, 150, 120, 160],
       "threshold": 0.80,
       "autoClick": true,
-      "sigmaX": 2, "sigmaY": 2,
+      "sigmaX": 1, "sigmaY": 1,
       "cooldownMs": 1000, "tapMs": 130
     },
     {
