@@ -326,10 +326,10 @@
     {
       "name": "tapcontinue1",
       "tmpl": "tapcontinue1.png",
-      "region": [1110, 1030, 1150, 1065],
+      "region": [184, 170, 194, 178],
       "threshold": 0.80,
       "autoClick": true,
-      "sigmaX": 5, "sigmaY": 5,
+      "sigmaX": 1, "sigmaY": 1,
       "cooldownMs": 1000, "tapMs": 130
     }
   ],
