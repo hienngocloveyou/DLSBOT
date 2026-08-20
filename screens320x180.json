@@ -75,15 +75,7 @@
       "sigmaX": 5, "sigmaY": 5,
       "cooldownMs": 1000, "tapMs": 130
     },
-    {
-      "name": "transferx",
-      "tmpl": "xred.png",
-      "region": [1375, 185, 1440, 250],
-      "threshold": 0.90,
-      "autoClick": true,
-      "sigmaX": 5, "sigmaY": 5,
-      "cooldownMs": 1000, "tapMs": 130
-    },
+    
     {
       "name": "stadium",
       "tmpl": "stadium.png",
