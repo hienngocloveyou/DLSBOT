@@ -309,7 +309,7 @@
       "name": "claimchild3",
       "tmpl": "claimchild.png",
       "region": [222, 107, 258, 122],
-      "threshold": 0.80,
+      "threshold": 0.70,
       "autoClick": true,
       "sigmaX": 1, "sigmaY": 1,
       "cooldownMs": 1000, "tapMs": 130
