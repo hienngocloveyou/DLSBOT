@@ -104,6 +104,15 @@
       "sigmaX": 1, "sigmaY": 1,
       "cooldownMs": 1000, "tapMs": 130
     },
+	{
+      "name": "upgradestadium2",
+      "tmpl": "upgradestadium1.png",
+      "region": [61, 113, 125, 127],
+      "threshold": 0.80,
+      "clickX": 225, "clickY": 67,
+      "sigmaX": 1, "sigmaY": 1,
+      "cooldownMs": 1000, "tapMs": 130
+    },
     {
       "name": "custom",
       "tmpl": "custom.png",
