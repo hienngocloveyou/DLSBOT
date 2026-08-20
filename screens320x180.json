@@ -2,15 +2,7 @@
   "version": 1,
   "screens": [
     
-    {
-      "name": "specialoffer",
-      "tmpl": "xred.png",
-      "region": [1240, 150, 1300, 210],
-      "threshold": 0.90,
-      "autoClick": true,
-      "sigmaX": 5, "sigmaY": 5,
-      "cooldownMs": 1000, "tapMs": 130
-    },
+    
     {
       "name": "toppick",
       "tmpl": "xred.png",
