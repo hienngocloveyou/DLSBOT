@@ -247,7 +247,7 @@
       "name": "dp",
       "tmpl": "xred.png",
       "region": [285, 22, 300, 36],
-      "threshold": 0.80,
+      "threshold": 0.85,
       "autoClick": true,
       "sigmaX": 1, "sigmaY": 1,
       "cooldownMs": 1000, "tapMs": 130
