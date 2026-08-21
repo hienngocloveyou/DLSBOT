@@ -185,24 +185,7 @@
       "sigmaX": 1, "sigmaY": 1,
       "cooldownMs": 1000, "tapMs": 130
     },
-    {
-      "name": "scenario",
-      "tmpl": "xred.png",
-      "region": [1730, 115, 1780, 170],
-      "threshold": 0.90,
-      "autoClick": true,
-      "sigmaX": 5, "sigmaY": 5,
-      "cooldownMs": 1000, "tapMs": 130
-    },
-    {
-      "name": "scenario1",
-      "tmpl": "xredbig.png",
-      "region": [590, 880, 665, 945],
-      "threshold": 0.90,
-      "autoClick": true,
-      "sigmaX": 5, "sigmaY": 5,
-      "cooldownMs": 1000, "tapMs": 130
-    },
+
 	
 	{
       "name": "dreamdraft",
@@ -269,15 +252,7 @@
       "sigmaX": 1, "sigmaY": 1,
       "cooldownMs": 1000, "tapMs": 130
     },
-    {
-      "name": "100game",
-      "tmpl": "100break.png",
-      "region": [660, 345, 785, 423],
-      "threshold": 0.90,
-      "autoClick": true,
-      "sigmaX": 5, "sigmaY": 5,
-      "cooldownMs": 1000, "tapMs": 130
-    },
+
     {
       "name": "injured",
       "tmpl": "okgreen.png",
