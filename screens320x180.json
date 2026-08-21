@@ -163,19 +163,7 @@
       "tmpl": "development.png",
       "region": [30, 113, 75, 127],
       "threshold": 0.80,
-	  "clicks": [
-	{ "x": 127,  "y": 32,  "delayAfterMs": 2000 },   
-	{ "x": 181, "y": 33,  "delayAfterMs": 2000 },  
-	{ "x": 91, "y": 79, "delayAfterMs": 2000 },
-	{ "x": 132, "y": 81, "delayAfterMs": 2000 },
-	{ "x": 176, "y": 79, "delayAfterMs": 2000 },
-	{ "x": 219, "y": 79, "delayAfterMs": 2000 },
-	{ "x": 89, "y": 125, "delayAfterMs": 2000 },
-	{ "x": 133, "y": 125, "delayAfterMs": 2000 },
-	{ "x": 176, "y": 125, "delayAfterMs": 2000 },
-	{ "x": 220, "y": 125, "delayAfterMs": 2000 },
-	{ "x": 154, "y": 156, "delayAfterMs": 2000 }
-	],
+	  "clickX": 120, "clickY": 163,
       "sigmaX": 1, "sigmaY": 1,
       "cooldownMs": 1000, "tapMs": 130
     },
