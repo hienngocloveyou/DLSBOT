@@ -175,7 +175,7 @@
 	{ "x": 176, "y": 125, "delayAfterMs": 2000 },
 	{ "x": 220, "y": 125, "delayAfterMs": 2000 },
 	{ "x": 154, "y": 156, "delayAfterMs": 2000 }
-	]
+	],
       "sigmaX": 1, "sigmaY": 1,
       "cooldownMs": 1000, "tapMs": 130
     },
