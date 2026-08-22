@@ -204,7 +204,10 @@
       "tmpl": "scouts.png",
       "region": [197, 104, 256, 118],
       "threshold": 0.80,
-      "clickX": 279, "clickY": 56,
+	  "clicks": [
+	{ "x": 279,  "y": 56,  "delayAfterMs": 2000 },   
+	{ "x": 89, "y": 153,  "delayAfterMs": 2000 } 
+	],
       "sigmaX": 1, "sigmaY": 1,
       "cooldownMs": 1000, "tapMs": 130
     },
