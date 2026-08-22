@@ -289,7 +289,7 @@
       "tmpl": "playnow.png",
       "region": [8, 20, 25, 38],
       "threshold": 0.90,
-      "clickX": 90, "clickY": 50,
+      "clickX": 30, "clickY": 50,
       "sigmaX": 5, "sigmaY": 5,
       "cooldownMs": 1000, "tapMs": 130
     },
