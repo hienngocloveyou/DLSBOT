@@ -211,6 +211,16 @@
       "sigmaX": 1, "sigmaY": 1,
       "cooldownMs": 1000, "tapMs": 130
     },
+	
+      "name": "livetransfer",
+      "tmpl": "livetransfer.png",
+      "region": [8, 23, 96, 36],
+      "threshold": 0.80,
+      "clickX": 11, "clickY": 7,
+      "sigmaX": 1, "sigmaY": 1,
+      "cooldownMs": 1000, "tapMs": 130
+    },
+	
     {
       "name": "scenario",
       "tmpl": "xred.png",
@@ -431,6 +441,7 @@
 	{ "name": "usebiggreen.png" },
     { "name": "xbluebig.png" },
     { "name": "discardblue.png" },
+	{ "name": "livetransfer.png" },
     { "name": "ssp.png" },
     { "name": "team.png" },
     { "name": "challe.png" },
