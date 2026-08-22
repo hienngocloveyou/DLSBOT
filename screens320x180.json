@@ -273,7 +273,10 @@
       "tmpl": "physios.png",
       "region": [194, 112, 258, 127],
       "threshold": 0.80,
-      "clickX": 90, "clickY": 100,
+	  "clicks": [
+	{ "x": 90,  "y": 100,  "delayAfterMs": 4000 },   
+	{ "x": 11, "y": 8,  "delayAfterMs": 2000 } 
+	],
       "sigmaX": 1, "sigmaY": 1,
       "cooldownMs": 1000, "tapMs": 130
     },
