@@ -158,28 +158,7 @@
       "sigmaX": 1, "sigmaY": 1,
       "cooldownMs": 1000, "tapMs": 130
     },
-	{
-      "name": "development1",
-      "tmpl": "development.png",
-      "region": [1730, 115, 1780, 170],
-      "threshold": 0.80,
-	  "clicks": [
-	{ "x": 127,  "y": 32,  "delayAfterMs": 2000 },   
-	{ "x": 181, "y": 33,  "delayAfterMs": 2000 },  
-	{ "x": 91, "y": 79, "delayAfterMs": 2000 },
-	{ "x": 132, "y": 81, "delayAfterMs": 2000 },
-	{ "x": 176, "y": 79, "delayAfterMs": 2000 },
-	{ "x": 219, "y": 79, "delayAfterMs": 2000 },
-	{ "x": 89, "y": 125, "delayAfterMs": 2000 },
-	{ "x": 133, "y": 125, "delayAfterMs": 2000 },
-	{ "x": 176, "y": 125, "delayAfterMs": 2000 },
-	{ "x": 220, "y": 125, "delayAfterMs": 2000 },
-	{ "x": 154, "y": 156, "delayAfterMs": 2000 },
-	{ "x": 40, "y": 120, "delayAfterMs": 2000 }
-	],
-      "sigmaX": 1, "sigmaY": 1,
-      "cooldownMs": 1000, "tapMs": 130
-    },
+	
 	
 	{
       "name": "formboost",
