@@ -4,7 +4,7 @@
     {
       "name": "social",
       "tmpl": "xred.png",
-      "region": [227, 49, 242, 65],
+      "region": [224, 49, 244, 65],
       "threshold": 0.80,
       "autoClick": true,
       "sigmaX": 1, "sigmaY": 1,
@@ -220,8 +220,19 @@
       "sigmaX": 1, "sigmaY": 1,
       "cooldownMs": 1000, "tapMs": 130
     },
-	
+	{
+      "name": "scoutresult",
+      "tmpl": "xbluebig.png",
+      "region": [105, 134, 121, 147],
+      "threshold": 0.80,
+      "clickX": 122, "clickY": 140,
+      "sigmaX": 1, "sigmaY": 1,
+      "cooldownMs": 1000, "tapMs": 130
+    },
     
+	
+	
+	
 	
 	{
       "name": "dreamdraft",
