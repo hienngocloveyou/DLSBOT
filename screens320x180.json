@@ -230,7 +230,15 @@
       "cooldownMs": 1000, "tapMs": 130
     },
     
-	
+	{
+      "name": "scenario",
+      "tmpl": "xred.png",
+      "region": [1730, 115, 1780, 170],
+      "threshold": 0.80,
+      "autoClick": true,
+      "sigmaX": 1, "sigmaY": 1,
+      "cooldownMs": 1000, "tapMs": 130
+    },
 	
 	
 	
@@ -280,7 +288,7 @@
       "tmpl": "career.png",
       "region": [5, 22, 40, 32],
       "threshold": 0.90,
-      "clickX": 90, "clickY": 50,
+      "clickX": 30, "clickY": 50,
       "sigmaX": 5, "sigmaY": 5,
       "cooldownMs": 1000, "tapMs": 130
     },
@@ -362,7 +370,7 @@
       "tmpl": "newdivision.png",
       "region": [6, 22, 52, 32],
       "threshold": 0.80,
-      "clickX": 70, "clickY": 50,
+      "clickX": 30, "clickY": 50,
       "sigmaX": 5, "sigmaY": 5,
       "cooldownMs": 1000, "tapMs": 130
     },
