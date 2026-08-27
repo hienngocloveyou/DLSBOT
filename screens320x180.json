@@ -1,6 +1,26 @@
 {
   "version": 1,
   "screens": [
+	
+	{
+      "name": "information",
+      "tmpl": "information.png",
+      "region": [95, 105, 135, 115],
+      "threshold": 0.80,
+      "autoClick": true,
+      "sigmaX": 1, "sigmaY": 1,
+      "cooldownMs": 1000, "tapMs": 130
+    },
+	{
+      "name": "retry1",
+      "tmpl": "retry.png",
+      "region": [107, 121, 132, 130],
+      "threshold": 0.80,
+      "autoClick": true,
+      "sigmaX": 1, "sigmaY": 1,
+      "cooldownMs": 1000, "tapMs": 130
+    },
+	
     {
       "name": "social",
       "tmpl": "xred.png",
@@ -441,6 +461,8 @@
   ],
   "templates": [
     { "name": "xred.png" },
+	{ "name": "information.png" },
+	{ "name": "retry.png" },
     { "name": "xredbig.png" },
 	{ "name": "development.png" },
 	{ "name": "usebiggreen.png" },
