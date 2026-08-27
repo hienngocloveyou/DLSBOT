@@ -20,17 +20,7 @@
       "sigmaX": 1, "sigmaY": 1,
       "cooldownMs": 1000, "tapMs": 130
     },
-
-	{
-      "name": "seasonpass",
-      "tmpl": "xred.png",
-      "region": [307,16, 316, 25],
-      "threshold": 0.80,
-      "autoClick": true,
-      "sigmaX": 1, "sigmaY": 1,
-      "cooldownMs": 1000, "tapMs": 130
-    },
-	  
+	
 	{
       "name": "claimssp",
       "tmpl": "claimssp.png",
@@ -41,7 +31,15 @@
       "cooldownMs": 1000, "tapMs": 130
     },
 	
-	
+	{
+      "name": "seasonpassend",
+      "tmpl": "xred.png",
+      "region": [307,16, 316, 25],
+      "threshold": 0.80,
+      "autoClick": true,
+      "sigmaX": 1, "sigmaY": 1,
+      "cooldownMs": 1000, "tapMs": 130
+    },
 	
     {
       "name": "social",
@@ -272,7 +270,15 @@
       "cooldownMs": 1000, "tapMs": 130
     },
     
-	
+	{
+      "name": "scenario",
+      "tmpl": "xred.png",
+      "region": [1730, 115, 1780, 170],
+      "threshold": 0.9,
+      "autoClick": true,
+      "sigmaX": 1, "sigmaY": 1,
+      "cooldownMs": 1000, "tapMs": 130
+    },
 	
 	{
       "name": "scenario1",
