@@ -21,11 +21,22 @@
       "cooldownMs": 1000, "tapMs": 130
     },
 	
+	
 	{
       "name": "claimssp",
       "tmpl": "claimssp.png",
       "region": [96,143, 272, 159],
       "threshold": 0.8,
+      "autoClick": true,
+      "sigmaX": 1, "sigmaY": 1,
+      "cooldownMs": 1000, "tapMs": 130
+    },
+	
+	{
+      "name": "sspok",
+      "tmpl": "okgreen.png",
+      "region": [158, 144, 173, 156],
+      "threshold": 0.80,
       "autoClick": true,
       "sigmaX": 1, "sigmaY": 1,
       "cooldownMs": 1000, "tapMs": 130
