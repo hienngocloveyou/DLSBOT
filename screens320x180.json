@@ -21,6 +21,26 @@
       "cooldownMs": 1000, "tapMs": 130
     },
 	
+	{
+      "name": "claimssp",
+      "tmpl": "claimssp.png",
+      "region": [96,144, 272, 159],
+      "threshold": 0.80,
+      "autoClick": true,
+      "sigmaX": 1, "sigmaY": 1,
+      "cooldownMs": 1000, "tapMs": 130
+    },
+	
+	{
+      "name": "seasonpass",
+      "tmpl": "xred.png",
+      "region": [303,12, 319, 27],
+      "threshold": 0.80,
+      "autoClick": true,
+      "sigmaX": 1, "sigmaY": 1,
+      "cooldownMs": 1000, "tapMs": 130
+    },
+	
     {
       "name": "social",
       "tmpl": "xred.png",
@@ -254,7 +274,17 @@
       "name": "scenario",
       "tmpl": "xred.png",
       "region": [1730, 115, 1780, 170],
-      "threshold": 0.90,
+      "threshold": 0.86,
+      "autoClick": true,
+      "sigmaX": 1, "sigmaY": 1,
+      "cooldownMs": 1000, "tapMs": 130
+    },
+	
+	{
+      "name": "scenario1",
+      "tmpl": "xred.png",
+      "region": [285, 16, 300, 32],
+      "threshold": 0.85,
       "autoClick": true,
       "sigmaX": 1, "sigmaY": 1,
       "cooldownMs": 1000, "tapMs": 130
@@ -461,6 +491,7 @@
   ],
   "templates": [
     { "name": "xred.png" },
+	{ "name": "claimssp.png" },
 	{ "name": "information.png" },
 	{ "name": "retry.png" },
     { "name": "xredbig.png" },
