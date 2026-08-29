@@ -295,7 +295,7 @@
       "name": "scenario",
       "tmpl": "xred.png",
       "region": [1730, 115, 1780, 170],
-      "threshold": 0.87,
+      "threshold": 0.88,
       "autoClick": true,
       "sigmaX": 1, "sigmaY": 1,
       "cooldownMs": 1000, "tapMs": 130
@@ -359,7 +359,7 @@
       "tmpl": "career.png",
       "region": [5, 22, 40, 32],
       "threshold": 0.90,
-      "clickX": 30, "clickY": 50,
+      "clickX": 15, "clickY": 50,
       "sigmaX": 5, "sigmaY": 5,
       "cooldownMs": 1000, "tapMs": 130
     },
@@ -368,7 +368,7 @@
       "tmpl": "playnow.png",
       "region": [8, 20, 25, 38],
       "threshold": 0.90,
-      "clickX": 30, "clickY": 50,
+      "clickX": 15, "clickY": 50,
       "sigmaX": 5, "sigmaY": 5,
       "cooldownMs": 1000, "tapMs": 130
     },
@@ -441,7 +441,7 @@
       "tmpl": "newdivision.png",
       "region": [6, 22, 52, 32],
       "threshold": 0.80,
-      "clickX": 30, "clickY": 50,
+      "clickX": 15, "clickY": 50,
       "sigmaX": 5, "sigmaY": 5,
       "cooldownMs": 1000, "tapMs": 130
     },
