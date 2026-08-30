@@ -1,10 +1,28 @@
 {
   "version": 1,
   "screens": [
-    {
+	{
       "name": "social",
       "tmpl": "xred.png",
       "region": [1377, 309, 1437, 369],
+      "threshold": 0.90,
+      "autoClick": true,
+      "sigmaX": 5, "sigmaY": 5,
+      "cooldownMs": 1000, "tapMs": 130
+    },	
+    {
+      "name": "information",
+      "tmpl": "continuebiggreen.png",
+      "region": [1133, 676, 1245, 725],
+      "threshold": 0.90,
+      "autoClick": true,
+      "sigmaX": 5, "sigmaY": 5,
+      "cooldownMs": 1000, "tapMs": 130
+    },
+	{
+      "name": "information1",
+      "tmpl": "continuebiggreen.png",
+      "region": [730, 673, 838, 719],
       "threshold": 0.90,
       "autoClick": true,
       "sigmaX": 5, "sigmaY": 5,
@@ -320,6 +338,7 @@
   ],
   "templates": [
     { "name": "xred.png" },
+	{ "name": "continuebiggreen.png" },
     { "name": "xredbig.png" },
     { "name": "xbluebig.png" },
     { "name": "discardblue.png" },
