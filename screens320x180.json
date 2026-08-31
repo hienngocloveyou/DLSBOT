@@ -32,6 +32,16 @@
     },
 	
 	{
+      "name": "claimrewardenddp",
+      "tmpl": "claimrewardend.png",
+      "region": [180, 102, 228, 117],
+      "threshold": 0.80,
+      "autoClick": true,
+      "sigmaX": 1, "sigmaY": 1,
+      "cooldownMs": 1000, "tapMs": 130
+    },
+	
+	{
       "name": "claimprizedp",
       "tmpl": "claimprizesdp.png",
       "region": [100, 60, 245, 158],
@@ -51,15 +61,6 @@
       "cooldownMs": 1000, "tapMs": 130
     },
 	
-	{
-      "name": "claimrewardenddp",
-      "tmpl": "claimrewardend.png",
-      "region": [180, 102, 228, 117],
-      "threshold": 0.80,
-      "autoClick": true,
-      "sigmaX": 1, "sigmaY": 1,
-      "cooldownMs": 1000, "tapMs": 130
-    },
 	
 	{
       "name": "claimssp",
