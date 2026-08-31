@@ -33,7 +33,7 @@
 	
 	{
       "name": "claimprizedp",
-      "tmpl": "claimchild.png",
+      "tmpl": "claimprizesdp.png",
       "region": [100, 60, 245, 158],
       "threshold": 0.70,
       "autoClick": true,
@@ -557,6 +557,7 @@
   ],
   "templates": [
     { "name": "xred.png" },
+	{ "name": "claimprizesdp.png" },
 	{ "name": "claimssp.png" },
 	{ "name": "information.png" },
 	{ "name": "retry.png" },
