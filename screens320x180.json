@@ -31,6 +31,25 @@
       "cooldownMs": 1000, "tapMs": 130
     },
 	
+	{
+      "name": "claimprizedp",
+      "tmpl": "claimchild.png",
+      "region": [100, 60, 245, 158],
+      "threshold": 0.70,
+      "autoClick": true,
+      "sigmaX": 1, "sigmaY": 1,
+      "cooldownMs": 1000, "tapMs": 130
+    },
+	
+	{
+      "name": "sspok",
+      "tmpl": "okgreen.png",
+      "region": [158, 144, 173, 156],
+      "threshold": 0.80,
+      "autoClick": true,
+      "sigmaX": 1, "sigmaY": 1,
+      "cooldownMs": 1000, "tapMs": 130
+    },
 	
 	{
       "name": "claimssp",
@@ -72,25 +91,7 @@
       "cooldownMs": 1000, "tapMs": 130
     },
 	
-	{
-      "name": "claimprizedp",
-      "tmpl": "claimchild.png",
-      "region": [100, 60, 245, 158],
-      "threshold": 0.70,
-      "autoClick": true,
-      "sigmaX": 1, "sigmaY": 1,
-      "cooldownMs": 1000, "tapMs": 130
-    },
 	
-	{
-      "name": "sspok",
-      "tmpl": "okgreen.png",
-      "region": [158, 144, 173, 156],
-      "threshold": 0.80,
-      "autoClick": true,
-      "sigmaX": 1, "sigmaY": 1,
-      "cooldownMs": 1000, "tapMs": 130
-    },
 	
     {
       "name": "social",
