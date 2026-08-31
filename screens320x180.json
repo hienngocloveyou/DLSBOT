@@ -45,7 +45,7 @@
       "name": "claimprizedp",
       "tmpl": "claimprizesdp.png",
       "region": [100, 60, 245, 158],
-      "threshold": 0.65,
+      "threshold": 0.68,
       "autoClick": true,
       "sigmaX": 1, "sigmaY": 1,
       "cooldownMs": 1000, "tapMs": 130
