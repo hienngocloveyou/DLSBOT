@@ -31,70 +31,6 @@
       "cooldownMs": 1000, "tapMs": 130
     },
 	
-	{
-      "name": "claimrewardenddp",
-      "tmpl": "claimrewardend.png",
-      "region": [180, 102, 228, 117],
-      "threshold": 0.80,
-      "autoClick": true,
-      "sigmaX": 1, "sigmaY": 1,
-      "cooldownMs": 1000, "tapMs": 130
-    },
-	
-	{
-      "name": "claimprizedp",
-      "tmpl": "claimprizesdp.png",
-      "region": [100, 60, 245, 158],
-      "threshold": 0.68,
-      "autoClick": true,
-      "sigmaX": 1, "sigmaY": 1,
-      "cooldownMs": 1000, "tapMs": 130
-    },
-	
-	{
-      "name": "sspok",
-      "tmpl": "okgreen.png",
-      "region": [158, 144, 173, 156],
-      "threshold": 0.80,
-      "autoClick": true,
-      "sigmaX": 1, "sigmaY": 1,
-      "cooldownMs": 1000, "tapMs": 130
-    },
-	
-	
-	{
-      "name": "claimssp",
-      "tmpl": "claimssp.png",
-      "region": [96,143, 272, 159],
-      "threshold": 0.8,
-      "autoClick": true,
-      "sigmaX": 1, "sigmaY": 1,
-      "cooldownMs": 1000, "tapMs": 130
-    },
-	
-	{
-      "name": "sspok",
-      "tmpl": "okgreen.png",
-      "region": [158, 144, 173, 156],
-      "threshold": 0.80,
-      "autoClick": true,
-      "sigmaX": 1, "sigmaY": 1,
-      "cooldownMs": 1000, "tapMs": 130
-    },
-	
-	{
-      "name": "seasonpassend",
-      "tmpl": "xred.png",
-      "region": [307,16, 316, 25],
-      "threshold": 0.80,
-      "autoClick": true,
-      "sigmaX": 1, "sigmaY": 1,
-      "cooldownMs": 1000, "tapMs": 130
-    },
-	
-	
-	
-	
 	
     {
       "name": "social",
@@ -554,6 +490,67 @@
       "sigmaX": 1, "sigmaY": 1,
       "cooldownMs": 1000, "tapMs": 130
     }
+	
+	{
+      "name": "claimrewardenddp",
+      "tmpl": "claimrewardend.png",
+      "region": [180, 102, 228, 117],
+      "threshold": 0.80,
+      "autoClick": true,
+      "sigmaX": 1, "sigmaY": 1,
+      "cooldownMs": 1000, "tapMs": 130
+    },
+	
+	{
+      "name": "claimprizedp",
+      "tmpl": "claimprizesdp.png",
+      "region": [100, 60, 245, 158],
+      "threshold": 0.68,
+      "autoClick": true,
+      "sigmaX": 1, "sigmaY": 1,
+      "cooldownMs": 1000, "tapMs": 130
+    },
+	
+	{
+      "name": "sspok",
+      "tmpl": "okgreen.png",
+      "region": [158, 144, 173, 156],
+      "threshold": 0.80,
+      "autoClick": true,
+      "sigmaX": 1, "sigmaY": 1,
+      "cooldownMs": 1000, "tapMs": 130
+    },
+	
+	
+	{
+      "name": "claimssp",
+      "tmpl": "claimssp.png",
+      "region": [96,143, 272, 159],
+      "threshold": 0.8,
+      "autoClick": true,
+      "sigmaX": 1, "sigmaY": 1,
+      "cooldownMs": 1000, "tapMs": 130
+    },
+	
+	{
+      "name": "sspok",
+      "tmpl": "okgreen.png",
+      "region": [158, 144, 173, 156],
+      "threshold": 0.80,
+      "autoClick": true,
+      "sigmaX": 1, "sigmaY": 1,
+      "cooldownMs": 1000, "tapMs": 130
+    },
+	
+	{
+      "name": "seasonpassend",
+      "tmpl": "xred.png",
+      "region": [307,16, 316, 25],
+      "threshold": 0.80,
+      "autoClick": true,
+      "sigmaX": 1, "sigmaY": 1,
+      "cooldownMs": 1000, "tapMs": 130
+    },
 	
   ],
   "templates": [
