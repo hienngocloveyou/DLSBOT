@@ -243,7 +243,7 @@
       "threshold": 0.90,
       "clickX": 1428, "clickY": 905,
       "sigmaX": 8, "sigmaY": 6,        
-      "cooldownMs": 1000, "tapMs": 130
+      "cooldownMs": 1000, "tapMs": 130,
 	  "action": "result"
     },
     {
