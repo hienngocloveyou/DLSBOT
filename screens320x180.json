@@ -390,8 +390,8 @@
 		{ "x": 27,  "y": 9,  "delayAfterMs": 5000 },   
 		{ "x": 286, "y": 170, "delayAfterMs": 5000 },  
 		{ "x": 60, "y": 110, "delayAfterMs": 5000 },
-		{ "x": 27,  "y": 9,  "delayAfterMs": 5000 },
-		{ "x": 27,  "y": 9,  "delayAfterMs": 5000 },
+		{ "x": 27,  "y": 9,  "delayAfterMs": 7000 },
+		{ "x": 27,  "y": 10,  "delayAfterMs": 7000 },
 		{ "x": 286, "y": 170, "delayAfterMs": 5000 }
 		],
       "sigmaX": 1, "sigmaY": 1,        
