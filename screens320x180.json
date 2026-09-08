@@ -386,8 +386,15 @@
       "tmpl": "play.png",
       "region": [280, 165, 300, 175],
       "threshold": 0.90,
-      "autoClick": true,
-      "sigmaX": 5, "sigmaY": 5,        
+	  "clicks": [
+		{ "x": 27,  "y": 9,  "delayAfterMs": 5000 },   
+		{ "x": 286, "y": 170, "delayAfterMs": 5000 },  
+		{ "x": 60, "y": 110, "delayAfterMs": 5000 },
+		{ "x": 27,  "y": 9,  "delayAfterMs": 5000 },
+		{ "x": 27,  "y": 9,  "delayAfterMs": 5000 },
+		{ "x": 286, "y": 170, "delayAfterMs": 5000 }
+		],
+      "sigmaX": 1, "sigmaY": 1,        
       "cooldownMs": 1000, "tapMs": 130,
       "action": "patchCamera"
     },
