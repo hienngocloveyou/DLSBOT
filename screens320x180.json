@@ -341,8 +341,14 @@
       "tmpl": "career.png",
       "region": [5, 22, 40, 32],
       "threshold": 0.90,
-      "clickX": 15, "clickY": 50,
-      "sigmaX": 5, "sigmaY": 5,
+	  "clicks": [
+		{ "x": 2,  "y": 8,  "delayAfterMs": 1000 },   
+		{ "x": 2, "y": 8, "delayAfterMs": 2000 },  
+		{ "x": 2, "y": 8, "delayAfterMs": 2000 },
+		{ "x": 2,  "y": 8,  "delayAfterMs": 2000 },
+		{ "x": 15, "y": 50, "delayAfterMs": 2000 }
+		],
+      "sigmaX": 1, "sigmaY": 1,
       "cooldownMs": 1000, "tapMs": 130
     },
     {
