@@ -350,8 +350,14 @@
       "tmpl": "playnow.png",
       "region": [8, 20, 25, 38],
       "threshold": 0.90,
-      "clickX": 15, "clickY": 50,
-      "sigmaX": 5, "sigmaY": 5,
+	  "clicks": [
+		{ "x": 2,  "y": 8,  "delayAfterMs": 1000 },   
+		{ "x": 2, "y": 8, "delayAfterMs": 2000 },  
+		{ "x": 2, "y": 8, "delayAfterMs": 2000 },
+		{ "x": 2,  "y": 8,  "delayAfterMs": 2000 },
+		{ "x": 15, "y": 50, "delayAfterMs": 2000 }
+		],
+      "sigmaX": 1, "sigmaY": 1,
       "cooldownMs": 1000, "tapMs": 130
     },
     {
@@ -413,8 +419,14 @@
       "tmpl": "continue.png",
       "region": [258, 163, 271, 176],
       "threshold": 0.80,
-      "clickX": 288, "clickY": 170,
-      "sigmaX": 5, "sigmaY": 5,        
+	  "clicks": [
+		{ "x": 288,  "y": 170,  "delayAfterMs": 1000 },   
+		{ "x": 2, "y": 8, "delayAfterMs": 2000 },  
+		{ "x": 2, "y": 8, "delayAfterMs": 2000 },
+		{ "x": 2,  "y": 8,  "delayAfterMs": 2000 },
+		{ "x": 2, "y": 8, "delayAfterMs": 2000 }
+		],
+      "sigmaX": 1, "sigmaY": 1,        
       "cooldownMs": 1000, "tapMs": 130
     },
     {
