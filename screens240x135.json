@@ -104,6 +104,51 @@
 		  "tol": 20
 		}
 	  ]
+    },
+	
+	{
+      "name": "play",
+      "tmpl": "play.png",
+      "region": [280, 165, 300, 175],
+      "threshold": 0.90,
+	  "clicks": [
+		{ "x": 20,  "y": 6,  "delayAfterMs": 3000 },   
+		{ "x": 220, "y": 126, "delayAfterMs": 3000 },  
+		{ "x": 38, "y": 74, "delayAfterMs": 7000 },
+		{ "x": 8,  "y": 6,  "delayAfterMs": 5000 },
+		{ "x": 8,  "y": 6,  "delayAfterMs": 5000 },
+		{ "x": 220, "y": 126, "delayAfterMs": 5000 }
+		],
+      "sigmaX": 1, "sigmaY": 1,        
+      "cooldownMs": 1000, "tapMs": 130,
+      "action": "patchCamera",
+	  "colorMode" : "color_only",
+	  "colorChecks": [
+		  {
+			"x": 211,
+			"y": 127,
+			"r": 93,
+			"g": 227,
+			"b": 0,
+			"tol": 20
+		  },
+		  {
+			"x": 226,
+			"y": 127,
+			"r": 93,
+			"g": 227,
+			"b": 0,
+			"tol": 20
+		  },
+		  {
+			"x": 218,
+			"y": 128,
+			"r": 210,
+			"g": 246,
+			"b": 187,
+			"tol": 20
+		  }
+		]
     }
 	
 	
