@@ -114,7 +114,7 @@
 	  "clicks": [
 		{ "x": 20,  "y": 6,  "delayAfterMs": 3000 },   
 		{ "x": 220, "y": 126, "delayAfterMs": 3000 },  
-		{ "x": 38, "y": 74, "delayAfterMs": 7000 },
+		{ "x": 38, "y": 82, "delayAfterMs": 7000 },
 		{ "x": 8,  "y": 6,  "delayAfterMs": 5000 },
 		{ "x": 8,  "y": 6,  "delayAfterMs": 5000 },
 		{ "x": 220, "y": 126, "delayAfterMs": 5000 }
@@ -239,11 +239,11 @@
       "region": [5, 22, 40, 32],
       "threshold": 0.90,
 	  "clicks": [
-		{ "x": 1,  "y": 6,  "delayAfterMs": 1000 },   
+		{ "x": 215,  "y": 127,  "delayAfterMs": 1000 },   
 		{ "x": 1, "y": 6, "delayAfterMs": 1000 },  
 		{ "x": 1, "y": 6, "delayAfterMs": 1000 },
 		{ "x": 1,  "y": 6,  "delayAfterMs": 1000 },
-		{ "x": 215, "y": 127, "delayAfterMs": 1000 }
+		{ "x": 1, "y": 6, "delayAfterMs": 1000 }
 		],
       "sigmaX": 1, "sigmaY": 1,
       "cooldownMs": 1000, "tapMs": 130,
