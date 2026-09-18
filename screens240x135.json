@@ -3,8 +3,8 @@
   "screens": [
 	
 	{
-      "name": "transfer",
-      "tmpl": "transfer.png",
+      "name": "team",
+      "tmpl": "team.png",
       "region": [117, 95, 152, 110],
       "threshold": 0.80,
       "clickX": 90, "clickY": 122,
@@ -49,6 +49,57 @@
 	  
 	  
     },
+	
+	{
+      "name": "toppick",
+      "tmpl": "toppick.png",
+      "region": [117, 95, 152, 110],
+      "threshold": 0.80,
+      "clickX": 185, "clickY": 20,
+      "sigmaX": 1, "sigmaY": 1,
+      "cooldownMs": 1000, "tapMs": 130,
+	  "colorMode" : "color_only",
+	  "colorChecks": [
+		  {
+			"x": 185,
+			"y": 20,
+			"r": 255,
+			"g": 255,
+			"b": 255,
+			"tol": 20
+		  },
+		  {
+			"x": 182,
+			"y": 17,
+			"r": 253,
+			"g": 78,
+			"b": 78,
+			"tol": 20
+		  },
+		  {
+			"x": 189,
+			"y": 23,
+			"r": 251,
+			"g": 39,
+			"b": 39,
+			"tol": 20
+		  },
+		  {
+			"x": 182,
+			"y": 22,
+			"r": 248,
+			"g": 22,
+			"b": 22,
+			"tol": 20
+		  }
+		]
+	  
+	  
+	  
+    },
+	
+	
+	
 	
 	{
 		
