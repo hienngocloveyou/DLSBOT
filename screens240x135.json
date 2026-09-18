@@ -53,46 +53,77 @@
 		  "tol": 20
 		}
 	  ]
+    },
+	
+	{
+      "name": "playnow",
+      "tmpl": "playnow.png",
+      "region": [5, 22, 40, 32],
+      "threshold": 0.90,
+	  "clicks": [
+		{ "x": 1,  "y": 6,  "delayAfterMs": 1000 },   
+		{ "x": 1, "y": 6, "delayAfterMs": 1000 },  
+		{ "x": 1, "y": 6, "delayAfterMs": 1000 },
+		{ "x": 1,  "y": 6,  "delayAfterMs": 1000 },
+		{ "x": 7, "y": 27, "delayAfterMs": 1000 }
+		],
+      "sigmaX": 1, "sigmaY": 1,
+      "cooldownMs": 1000, "tapMs": 130,
+	  "colorMode" : "color_only",
+	  "colorChecks": [
+		{
+		  "x": 27,
+		  "y": 22,
+		  "r": 214,
+		  "g": 8,
+		  "b": 15,
+		  "tol": 20
+		},
+		{
+		  "x": 144,
+		  "y": 2,
+		  "r": 147,
+		  "g": 216,
+		  "b": 251,
+		  "tol": 20
+		},
+		{
+		  "x": 175,
+		  "y": 2,
+		  "r": 247,
+		  "g": 227,
+		  "b": 119,
+		  "tol": 20
+		},
+		{
+		  "x": 8,
+		  "y": 20,
+		  "r": 255,
+		  "g": 194,
+		  "b": 202,
+		  "tol": 20
+		}
+	  ]
     }
 	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
   ],
-  "templates": [
-    { "name": "xred.png" },
-	{ "name": "claimprizesdp.png" },
-	{ "name": "claimssp.png" },
-	{ "name": "information.png" },
-	{ "name": "retry.png" },
-    { "name": "xredbig.png" },
-	{ "name": "development.png" },
-	{ "name": "usebiggreen.png" },
-    { "name": "xbluebig.png" },
-    { "name": "discardblue.png" },
-	{ "name": "livetransfer.png" },
-    { "name": "ssp.png" },
-    { "name": "team.png" },
-    { "name": "challe.png" },
-    { "name": "transfer.png" },
-    { "name": "stadium.png" },
-    { "name": "stadium1.png" },
-	{ "name": "upgradestadium1.png" },
-	{ "name": "stadiumicon.png" },
-	{ "name": "scouts.png" },
-    { "name": "custom.png" },
-	{ "name": "custom1.png" },
-	{ "name": "dreamdraft.png" },
-	{ "name": "physios.png" },
-    { "name": "career.png" },
-    { "name": "playnow.png" },
-    { "name": "100break.png" },
-    { "name": "okgreen.png" },
-    { "name": "play.png" },
-    { "name": "resume.png" },
-    { "name": "continue.png" },
-    { "name": "backgame.png" },
-    { "name": "newdivision.png" },
-    { "name": "tapcontinue.png" },
-    { "name": "tapcontinue1.png" },
-    { "name": "claimrewardend.png" },
-    { "name": "claimchild.png" }
+  "templates": 
+  [
+    
   ]
 }
