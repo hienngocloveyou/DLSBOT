@@ -2,7 +2,48 @@
   "version": 1,
   "screens": [
 	
-	
+	{
+      "name": "precareer",
+      "tmpl": "precareer.png",
+      "region": [5, 22, 40, 32],
+      "threshold": 0.90,
+	  "clicks": [
+		{ "x": 1,  "y": 6,  "delayAfterMs": 1000 },   
+		{ "x": 1, "y": 6, "delayAfterMs": 1000 },  
+		{ "x": 1, "y": 6, "delayAfterMs": 1000 },
+		{ "x": 1,  "y": 6,  "delayAfterMs": 1000 },
+		{ "x": 1, "y": 6, "delayAfterMs": 1000 }
+		],
+      "sigmaX": 1, "sigmaY": 1,
+      "cooldownMs": 1000, "tapMs": 130,
+	  "colorMode" : "color_only",
+	  "colorChecks": [
+		  {
+			"x": 143,
+			"y": 2,
+			"r": 45,
+			"g": 78,
+			"b": 100,
+			"tol": 20
+		  },
+		  {
+			"x": 173,
+			"y": 3,
+			"r": 72,
+			"g": 79,
+			"b": 62,
+			"tol": 20
+		  },
+		  {
+			"x": 10,
+			"y": 17,
+			"r": 61,
+			"g": 22,
+			"b": 35,
+			"tol": 20
+		  }
+		]
+    },
 	
     {
       "name": "career",
