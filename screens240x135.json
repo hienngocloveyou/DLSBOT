@@ -153,7 +153,10 @@
       "tmpl": "transfer.png",
       "region": [117, 95, 152, 110],
       "threshold": 0.80,
-      "clickX": 150, "clickY": 120,
+	  "clicks": [
+		{ "x": 150,  "y": 120,  "delayAfterMs": 3000 },   		
+		{ "x": 120, "y": 100, "delayAfterMs": 3000 }
+		],
       "sigmaX": 5, "sigmaY": 5,
       "cooldownMs": 1000, "tapMs": 130,
 	  "colorMode" : "color_only",
