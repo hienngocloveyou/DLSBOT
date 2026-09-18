@@ -2,45 +2,7 @@
   "version": 1,
   "screens": [
 	
-	{
-      "name": "skipevent",
-      "tmpl": "skipevent.png",
-      "region": [117, 95, 152, 110],
-      "threshold": 0.80,
-      "clickX": 3, "clickY": 13,
-      "sigmaX": 1, "sigmaY": 1,
-      "cooldownMs": 1000, "tapMs": 130,
-	  "colorMode" : "color_only",
-	  "colorChecks": [
-		  {
-			"x": 8,
-			"y": 5,
-			"r": 72,
-			"g": 87,
-			"b": 100,
-			"tol": 20
-		  },
-		  {
-			"x": 20,
-			"y": 6,
-			"r": 27,
-			"g": 48,
-			"b": 75,
-			"tol": 20
-		  },
-		  {
-			"x": 5,
-			"y": 7,
-			"r": 17,
-			"g": 38,
-			"b": 67,
-			"tol": 20
-		  }
-		]
-	  
-	  
-	  
-    },
+	
 	
 	{
       "name": "toppick",
@@ -140,8 +102,6 @@
 	  
     },
 	
-	
-	
 	{
       "name": "chall",
       "tmpl": "chall.png",
@@ -185,11 +145,78 @@
 			"tol": 20
 		  }
 		]
-	  
-	  
-	  
+ 
     },
 	
+	{
+      "name": "transfer",
+      "tmpl": "transfer.png",
+      "region": [117, 95, 152, 110],
+      "threshold": 0.80,
+      "clickX": 150, "clickY": 120,
+      "sigmaX": 5, "sigmaY": 5,
+      "cooldownMs": 1000, "tapMs": 130,
+	  "colorMode" : "color_only",
+	  "colorChecks": [
+		  {
+			"x": 8,
+			"y": 5,
+			"r": 72,
+			"g": 87,
+			"b": 100,
+			"tol": 20
+		  },
+		  {
+			"x": 20,
+			"y": 6,
+			"r": 27,
+			"g": 48,
+			"b": 75,
+			"tol": 20
+		  },
+		  {
+			"x": 5,
+			"y": 7,
+			"r": 17,
+			"g": 38,
+			"b": 67,
+			"tol": 20
+		  },
+		  {
+			"x": 93,
+			"y": 74,
+			"r": 222,
+			"g": 231,
+			"b": 238,
+			"tol": 20
+		  },
+		  {
+			"x": 99,
+			"y": 78,
+			"r": 223,
+			"g": 233,
+			"b": 239,
+			"tol": 20
+		  },
+		  {
+			"x": 106,
+			"y": 76,
+			"r": 240,
+			"g": 244,
+			"b": 247,
+			"tol": 20
+		  },
+		  {
+			"x": 116,
+			"y": 78,
+			"r": 239,
+			"g": 244,
+			"b": 247,
+			"tol": 20
+		  }
+		]
+ 
+    },
 	
 	{
 		
@@ -233,6 +260,46 @@
 			"tol": 20
 		  }
 		]
+    },
+	
+	{
+      "name": "skipevent",
+      "tmpl": "skipevent.png",
+      "region": [117, 95, 152, 110],
+      "threshold": 0.80,
+      "clickX": 3, "clickY": 13,
+      "sigmaX": 1, "sigmaY": 1,
+      "cooldownMs": 1000, "tapMs": 130,
+	  "colorMode" : "color_only",
+	  "colorChecks": [
+		  {
+			"x": 8,
+			"y": 5,
+			"r": 72,
+			"g": 87,
+			"b": 100,
+			"tol": 20
+		  },
+		  {
+			"x": 20,
+			"y": 6,
+			"r": 27,
+			"g": 48,
+			"b": 75,
+			"tol": 20
+		  },
+		  {
+			"x": 5,
+			"y": 7,
+			"r": 17,
+			"g": 38,
+			"b": 67,
+			"tol": 20
+		  }
+		]
+	  
+	  
+	  
     },
 	
     {
