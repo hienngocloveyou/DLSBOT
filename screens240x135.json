@@ -205,7 +205,8 @@
       "region": [117, 95, 152, 110],
       "threshold": 0.80,
 	  "clicks": [
-		{ "x": 210,  "y": 124,  "delayAfterMs": 3000 },   		
+		{ "x": 210,  "y": 124,  "delayAfterMs": 3000 },
+		{ "x": 60,  "y": 55,  "delayAfterMs": 3000 },   		
 		{ "x": 7, "y": 6, "delayAfterMs": 3000 }
 		],
       "sigmaX": 5, "sigmaY": 5,
