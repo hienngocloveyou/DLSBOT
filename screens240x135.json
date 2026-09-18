@@ -231,7 +231,51 @@
 			"tol": 20
 		  }
 		]
+    },
+	
+	{
+      "name": "continue",
+      "tmpl": "continue.png",
+      "region": [5, 22, 40, 32],
+      "threshold": 0.90,
+	  "clicks": [
+		{ "x": 1,  "y": 6,  "delayAfterMs": 1000 },   
+		{ "x": 1, "y": 6, "delayAfterMs": 1000 },  
+		{ "x": 1, "y": 6, "delayAfterMs": 1000 },
+		{ "x": 1,  "y": 6,  "delayAfterMs": 1000 },
+		{ "x": 215, "y": 127, "delayAfterMs": 1000 }
+		],
+      "sigmaX": 1, "sigmaY": 1,
+      "cooldownMs": 1000, "tapMs": 130,
+	  "colorMode" : "color_only",
+	  "colorChecks": [
+		  {
+			"x": 198,
+			"y": 125,
+			"r": 190,
+			"g": 208,
+			"b": 221,
+			"tol": 20
+		  },
+		  {
+			"x": 198,
+			"y": 129,
+			"r": 225,
+			"g": 230,
+			"b": 235,
+			"tol": 20
+		  },
+		  {
+			"x": 227,
+			"y": 127,
+			"r": 221,
+			"g": 229,
+			"b": 235,
+			"tol": 20
+		  }
+		]
     }
+	
 	
 	
 	
