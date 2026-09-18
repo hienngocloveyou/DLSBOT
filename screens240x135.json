@@ -156,8 +156,8 @@
       "tmpl": "resume.png",
       "region": [160, 137, 188, 165],
       "threshold": 0.70,
-      "clickX": 238, "clickY": 155,
-      "sigmaX": 2, "sigmaY": 2,        
+      "clickX": 170, "clickY": 110,
+      "sigmaX": 5, "sigmaY": 5,        
       "cooldownMs": 1000, "tapMs": 130,
 	  "action": "result",
 	  "colorMode" : "color_only",
@@ -184,6 +184,50 @@
 			"r": 255,
 			"g": 255,
 			"b": 255,
+			"tol": 20
+		  }
+		]
+    },
+	
+	
+	
+	
+	
+	
+	
+	
+	{
+      "name": "backgame",
+      "tmpl": "backgame.png",
+      "region": [6, 2, 16, 13],
+      "threshold": 0.90,
+      "clickX": 8, "clickY": 6,
+      "sigmaX": 2, "sigmaY": 2,
+      "cooldownMs": 1000, "tapMs": 130,
+	  "colorMode" : "color_only",
+	  "colorChecks": [
+		  {
+			"x": 7,
+			"y": 6,
+			"r": 242,
+			"g": 244,
+			"b": 248,
+			"tol": 20
+		  },
+		  {
+			"x": 10,
+			"y": 6,
+			"r": 212,
+			"g": 218,
+			"b": 231,
+			"tol": 20
+		  },
+		  {
+			"x": 8,
+			"y": 10,
+			"r": 32,
+			"g": 47,
+			"b": 97,
 			"tol": 20
 		  }
 		]
