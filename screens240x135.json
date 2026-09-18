@@ -3,6 +3,55 @@
   "screens": [
 	
 	{
+      "name": "transfer",
+      "tmpl": "transfer.png",
+      "region": [117, 95, 152, 110],
+      "threshold": 0.80,
+      "clickX": 90, "clickY": 122,
+      "sigmaX": 5, "sigmaY": 5,
+      "cooldownMs": 1000, "tapMs": 130,
+	  "colorMode" : "color_only",
+	  "colorChecks": [
+		  {
+			"x": 77,
+			"y": 75,
+			"r": 240,
+			"g": 244,
+			"b": 247,
+			"tol": 20
+		  },
+		  {
+			"x": 88,
+			"y": 75,
+			"r": 220,
+			"g": 229,
+			"b": 236,
+			"tol": 20
+		  },
+		  {
+			"x": 95,
+			"y": 78,
+			"r": 242,
+			"g": 246,
+			"b": 248,
+			"tol": 20
+		  },
+		  {
+			"x": 105,
+			"y": 78,
+			"r": 237,
+			"g": 242,
+			"b": 246,
+			"tol": 20
+		  }
+		]
+	  
+	  
+	  
+    },
+	
+	{
+		
       "name": "precareer",
       "tmpl": "precareer.png",
       "region": [5, 22, 40, 32],
