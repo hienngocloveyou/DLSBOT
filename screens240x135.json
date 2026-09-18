@@ -161,30 +161,7 @@
       "cooldownMs": 1000, "tapMs": 130,
 	  "colorMode" : "color_only",
 	  "colorChecks": [
-		  {
-			"x": 8,
-			"y": 5,
-			"r": 72,
-			"g": 87,
-			"b": 100,
-			"tol": 20
-		  },
-		  {
-			"x": 20,
-			"y": 6,
-			"r": 27,
-			"g": 48,
-			"b": 75,
-			"tol": 20
-		  },
-		  {
-			"x": 5,
-			"y": 7,
-			"r": 17,
-			"g": 38,
-			"b": 67,
-			"tol": 20
-		  },
+		  
 		  {
 			"x": 93,
 			"y": 74,
@@ -436,43 +413,7 @@
 		]
     },
 	
-	 {
-      "name": "resume",
-      "tmpl": "resume.png",
-      "region": [160, 137, 188, 165],
-      "threshold": 0.70,
-      "clickX": 170, "clickY": 110,
-      "sigmaX": 5, "sigmaY": 5,        
-      "cooldownMs": 1000, "tapMs": 130,
-	  "action": "result",
-	  "colorMode" : "color_only",
-	  "colorChecks": [
-		  {
-			"x": 130,
-			"y": 112,
-			"r": 255,
-			"g": 255,
-			"b": 255,
-			"tol": 20
-		  },
-		  {
-			"x": 27,
-			"y": 112,
-			"r": 255,
-			"g": 255,
-			"b": 255,
-			"tol": 20
-		  },
-		  {
-			"x": 133,
-			"y": 67,
-			"r": 255,
-			"g": 255,
-			"b": 255,
-			"tol": 20
-		  }
-		]
-    },
+	 
 	
 	
 	
