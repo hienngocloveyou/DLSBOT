@@ -614,6 +614,52 @@
  
     },
 	
+	{
+      "name": "newdivision_next1",
+      "tmpl": "newdivision_next1.png",
+      "region": [117, 95, 152, 110],
+      "threshold": 0.80,
+	  "clickX": 140, "clickY": 130,
+      "sigmaX": 2, "sigmaY": 2,
+      "cooldownMs": 1000, "tapMs": 130,
+	  "colorMode" : "color_only",
+	  "colorChecks": [
+		  {
+			"x": 97,
+			"y": 129,
+			"r": 224,
+			"g": 228,
+			"b": 232,
+			"tol": 20
+		  },
+		  {
+			"x": 107,
+			"y": 129,
+			"r": 225,
+			"g": 226,
+			"b": 228,
+			"tol": 20
+		  },
+		  {
+			"x": 118,
+			"y": 129,
+			"r": 204,
+			"g": 211,
+			"b": 221,
+			"tol": 20
+		  },
+		  {
+			"x": 131,
+			"y": 130,
+			"r": 239,
+			"g": 240,
+			"b": 240,
+			"tol": 20
+		  }
+		]
+ 
+    },
+	
 	
 	
 	{
