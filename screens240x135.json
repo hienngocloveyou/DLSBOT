@@ -209,7 +209,7 @@
 		{ "x": 60,  "y": 55,  "delayAfterMs": 3000 },   		
 		{ "x": 7, "y": 6, "delayAfterMs": 3000 }
 		],
-      "sigmaX": 5, "sigmaY": 5,
+      "sigmaX": 2, "sigmaY": 2,
       "cooldownMs": 1000, "tapMs": 130,
 	  "colorMode" : "color_only",
 	  "colorChecks": [
@@ -264,10 +264,10 @@
       "threshold": 0.80,
 	  "clicks": [
 		{ "x": 210,  "y": 124,  "delayAfterMs": 3000 },
-		{ "x": 60,  "y": 55,  "delayAfterMs": 3000 },   		
+		{ "x": 180,  "y": 45,  "delayAfterMs": 3000 },   		
 		{ "x": 7, "y": 6, "delayAfterMs": 3000 }
 		],
-      "sigmaX": 5, "sigmaY": 5,
+      "sigmaX": 2, "sigmaY": 2,
       "cooldownMs": 1000, "tapMs": 130,
 	  "colorMode" : "color_only",
 	  "colorChecks": [
@@ -309,6 +309,52 @@
 			"r": 241,
 			"g": 245,
 			"b": 248,
+			"tol": 20
+		  }
+		]
+ 
+    },
+	
+	{
+      "name": "live",
+      "tmpl": "live.png",
+      "region": [117, 95, 152, 110],
+      "threshold": 0.80,
+	  "clickX": 92, "clickY": 114,
+      "sigmaX": 2, "sigmaY": 2,
+      "cooldownMs": 1000, "tapMs": 130,
+	  "colorMode" : "color_only",
+	  "colorChecks": [
+		  {
+			"x": 78,
+			"y": 114,
+			"r": 255,
+			"g": 255,
+			"b": 255,
+			"tol": 20
+		  },
+		  {
+			"x": 91,
+			"y": 110,
+			"r": 253,
+			"g": 76,
+			"b": 76,
+			"tol": 20
+		  },
+		  {
+			"x": 135,
+			"y": 114,
+			"r": 89,
+			"g": 225,
+			"b": 0,
+			"tol": 20
+		  },
+		  {
+			"x": 162,
+			"y": 114,
+			"r": 89,
+			"g": 225,
+			"b": 0,
 			"tol": 20
 		  }
 		]
