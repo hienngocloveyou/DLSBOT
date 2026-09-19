@@ -660,6 +660,53 @@
     },
 	
 	{
+      "name": "pennalty",
+      "tmpl": "pennalty.png",
+      "region": [117, 95, 152, 110],
+      "threshold": 0.80,
+	  "clickX": 136, "clickY": 83,
+      "sigmaX": 2, "sigmaY": 2,
+      "cooldownMs": 1000, "tapMs": 130,
+	  "colorMode" : "color_only",
+	  "colorChecks": [
+		  {
+			"x": 81,
+			"y": 54,
+			"r": 234,
+			"g": 240,
+			"b": 244,
+			"tol": 20
+		  },
+		  {
+			"x": 88,
+			"y": 57,
+			"r": 207,
+			"g": 221,
+			"b": 230,
+			"tol": 20
+		  },
+		  {
+			"x": 123,
+			"y": 53,
+			"r": 237,
+			"g": 242,
+			"b": 245,
+			"tol": 20
+		  },
+		  {
+			"x": 129,
+			"y": 55,
+			"r": 221,
+			"g": 230,
+			"b": 237,
+			"tol": 20
+		  }
+		]
+ 
+    },
+	
+	
+	{
 		
       "name": "precareer",
       "tmpl": "precareer.png",
