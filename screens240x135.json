@@ -362,6 +362,114 @@
     },
 	
 	{
+      "name": "development",
+      "tmpl": "development.png",
+      "region": [117, 95, 152, 110],
+      "threshold": 0.80,
+	  "clicks": [
+		{ "x": 90,  "y": 120,  "delayAfterMs": 3000 },   
+		{ "x": 96, "y": 24,  "delayAfterMs": 3000 },  
+		{ "x": 136, "y": 24, "delayAfterMs": 3000 },
+		{ "x": 67, "y": 59, "delayAfterMs": 3000 },
+		{ "x": 99, "y": 59, "delayAfterMs": 3000 },
+		{ "x": 132, "y": 59, "delayAfterMs": 3000 },
+		{ "x": 164, "y": 59, "delayAfterMs": 3000 },
+		{ "x": 67, "y": 95, "delayAfterMs": 3000 },
+		{ "x": 99, "y": 95, "delayAfterMs": 3000 },
+		{ "x": 132, "y": 95, "delayAfterMs": 3000 },
+		{ "x": 164, "y": 95, "delayAfterMs": 3000 },
+		{ "x": 116, "y": 117, "delayAfterMs": 3000 },
+		{ "x": 30, "y": 90, "delayAfterMs": 3000 },
+		{ "x": 66, "y": 115, "delayAfterMs": 3000 }
+		],
+      "sigmaX": 2, "sigmaY": 2,
+      "cooldownMs": 1000, "tapMs": 130,
+	  "colorMode" : "color_only",
+	  "colorChecks": [
+		  {
+			"x": 75,
+			"y": 78,
+			"r": 208,
+			"g": 221,
+			"b": 230,
+			"tol": 20
+		  },
+		  {
+			"x": 87,
+			"y": 76,
+			"r": 247,
+			"g": 250,
+			"b": 251,
+			"tol": 20
+		  },
+		  {
+			"x": 95,
+			"y": 77,
+			"r": 226,
+			"g": 234,
+			"b": 240,
+			"tol": 20
+		  },
+		  {
+			"x": 102,
+			"y": 78,
+			"r": 229,
+			"g": 236,
+			"b": 241,
+			"tol": 20
+		  },
+		  {
+			"x": 108,
+			"y": 75,
+			"r": 228,
+			"g": 235,
+			"b": 241,
+			"tol": 20
+		  }
+		]
+ 
+    },
+	
+	{
+      "name": "boost",
+      "tmpl": "boost.png",
+      "region": [117, 95, 152, 110],
+      "threshold": 0.80,
+	  "clickX": 120, "clickY": 113,
+      "sigmaX": 2, "sigmaY": 2,
+      "cooldownMs": 1000, "tapMs": 130,
+	  "colorMode" : "color_only",
+	  "colorChecks": [
+		  {
+			"x": 108,
+			"y": 113,
+			"r": 93,
+			"g": 227,
+			"b": 0,
+			"tol": 20
+		  },
+		  {
+			"x": 131,
+			"y": 113,
+			"r": 93,
+			"g": 227,
+			"b": 0,
+			"tol": 20
+		  },
+		  {
+			"x": 185,
+			"y": 17,
+			"r": 255,
+			"g": 255,
+			"b": 255,
+			"tol": 20
+		  }
+		]
+ 
+    },
+	
+	
+	{
 		
       "name": "precareer",
       "tmpl": "precareer.png",
@@ -451,11 +559,11 @@
       "region": [5, 22, 40, 32],
       "threshold": 0.90,
 	  "clicks": [
-		{ "x": 1,  "y": 6,  "delayAfterMs": 1000 },   
-		{ "x": 1, "y": 6, "delayAfterMs": 1000 },  
-		{ "x": 1, "y": 6, "delayAfterMs": 1000 },
-		{ "x": 1,  "y": 6,  "delayAfterMs": 1000 },
-		{ "x": 7, "y": 27, "delayAfterMs": 1000 }
+		{ "x": 1,  "y": 6,  "delayAfterMs": 2000 },   
+		{ "x": 1, "y": 6, "delayAfterMs": 2000 },  
+		{ "x": 1, "y": 6, "delayAfterMs": 2000 },
+		{ "x": 1,  "y": 6,  "delayAfterMs": 2000 },
+		{ "x": 7, "y": 27, "delayAfterMs": 2000 }
 		],
       "sigmaX": 1, "sigmaY": 1,
       "cooldownMs": 1000, "tapMs": 130,
@@ -494,11 +602,11 @@
       "region": [5, 22, 40, 32],
       "threshold": 0.90,
 	  "clicks": [
-		{ "x": 1,  "y": 6,  "delayAfterMs": 1000 },   
-		{ "x": 1, "y": 6, "delayAfterMs": 1000 },  
-		{ "x": 1, "y": 6, "delayAfterMs": 1000 },
-		{ "x": 1,  "y": 6,  "delayAfterMs": 1000 },
-		{ "x": 7, "y": 27, "delayAfterMs": 1000 }
+		{ "x": 1,  "y": 6,  "delayAfterMs": 2000 },   
+		{ "x": 1, "y": 6, "delayAfterMs": 2000 },  
+		{ "x": 1, "y": 6, "delayAfterMs": 2000 },
+		{ "x": 1,  "y": 6,  "delayAfterMs": 2000 },
+		{ "x": 7, "y": 27, "delayAfterMs": 2000 }
 		],
       "sigmaX": 1, "sigmaY": 1,
       "cooldownMs": 1000, "tapMs": 130,
@@ -542,7 +650,10 @@
 		{ "x": 38, "y": 82, "delayAfterMs": 7000 },
 		{ "x": 8,  "y": 6,  "delayAfterMs": 5000 },
 		{ "x": 8,  "y": 6,  "delayAfterMs": 5000 },
-		{ "x": 220, "y": 126, "delayAfterMs": 5000 }
+		{ "x": 220, "y": 126, "delayAfterMs": 5000 },
+		{ "x": 120, "y": 85, "delayAfterMs": 3000 },
+		{ "x": 120, "y": 85, "delayAfterMs": 3000 },
+		{ "x": 120, "y": 85, "delayAfterMs": 3000 }
 		],
       "sigmaX": 1, "sigmaY": 1,        
       "cooldownMs": 1000, "tapMs": 130,
@@ -664,11 +775,11 @@
       "region": [5, 22, 40, 32],
       "threshold": 0.90,
 	  "clicks": [
-		{ "x": 215,  "y": 127,  "delayAfterMs": 1000 },   
-		{ "x": 1, "y": 6, "delayAfterMs": 1000 },  
-		{ "x": 1, "y": 6, "delayAfterMs": 1000 },
-		{ "x": 1,  "y": 6,  "delayAfterMs": 1000 },
-		{ "x": 1, "y": 6, "delayAfterMs": 1000 }
+		{ "x": 215,  "y": 127,  "delayAfterMs": 2000 },   
+		{ "x": 1, "y": 6, "delayAfterMs": 2000 },  
+		{ "x": 1, "y": 6, "delayAfterMs": 2000 },
+		{ "x": 1,  "y": 6,  "delayAfterMs": 2000 },
+		{ "x": 1, "y": 6, "delayAfterMs": 2000 }
 		],
       "sigmaX": 1, "sigmaY": 1,
       "cooldownMs": 1000, "tapMs": 130,
