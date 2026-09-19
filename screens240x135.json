@@ -468,6 +468,43 @@
  
     },
 	
+	{
+      "name": "social",
+      "tmpl": "social.png",
+      "region": [117, 95, 152, 110],
+      "threshold": 0.80,
+	  "clickX": 176, "clickY": 42,
+      "sigmaX": 2, "sigmaY": 2,
+      "cooldownMs": 1000, "tapMs": 130,
+	  "colorMode" : "color_only",
+	  "colorChecks": [
+		  {
+			"x": 176,
+			"y": 42,
+			"r": 255,
+			"g": 241,
+			"b": 241,
+			"tol": 20
+		  },
+		  {
+			"x": 176,
+			"y": 39,
+			"r": 253,
+			"g": 78,
+			"b": 78,
+			"tol": 20
+		  },
+		  {
+			"x": 112,
+			"y": 88,
+			"r": 66,
+			"g": 133,
+			"b": 244,
+			"tol": 20
+		  }
+		]
+ 
+    },
 	
 	{
 		
