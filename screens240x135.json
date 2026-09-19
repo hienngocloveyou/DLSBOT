@@ -511,17 +511,7 @@
       "tmpl": "newdivision.png",
       "region": [117, 95, 152, 110],
       "threshold": 0.80,
-	  "clicks": [
-		{ "x": 8,  "y": 25,  "delayAfterMs": 3000 },   
-		{ "x": 141, "y": 130, "delayAfterMs": 3000 },  
-		{ "x": 141, "y": 130, "delayAfterMs": 3000 },
-		{ "x": 141, "y": 130, "delayAfterMs": 3000 },
-		{ "x": 141, "y": 130, "delayAfterMs": 3000 },
-		{ "x": 141, "y": 130, "delayAfterMs": 3000 },
-		{ "x": 141, "y": 130, "delayAfterMs": 3000 },
-		{ "x": 141, "y": 130, "delayAfterMs": 3000 },
-		{ "x": 141, "y": 130, "delayAfterMs": 3000 }
-		],
+	  "clickX": 8, "clickY": 25,
       "sigmaX": 2, "sigmaY": 2,
       "cooldownMs": 1000, "tapMs": 130,
 	  "colorMode" : "color_only",
@@ -577,6 +567,54 @@
 		]
  
     },
+	
+	{
+      "name": "newdivision_next",
+      "tmpl": "newdivision_next.png",
+      "region": [117, 95, 152, 110],
+      "threshold": 0.80,
+	  "clickX": 140, "clickY": 130,
+      "sigmaX": 2, "sigmaY": 2,
+      "cooldownMs": 1000, "tapMs": 130,
+	  "colorMode" : "color_only",
+	  "colorChecks": [
+		  {
+			"x": 150,
+			"y": 33,
+			"r": 0,
+			"g": 255,
+			"b": 0,
+			"tol": 20
+		  },
+		  {
+			"x": 195,
+			"y": 32,
+			"r": 255,
+			"g": 0,
+			"b": 0,
+			"tol": 20
+		  },
+		  {
+			"x": 17,
+			"y": 22,
+			"r": 0,
+			"g": 0,
+			"b": 0,
+			"tol": 20
+		  },
+		  {
+			"x": 28,
+			"y": 22,
+			"r": 0,
+			"g": 0,
+			"b": 0,
+			"tol": 20
+		  }
+		]
+ 
+    },
+	
+	
 	
 	{
 		
