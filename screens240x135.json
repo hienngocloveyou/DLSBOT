@@ -507,6 +507,52 @@
     },
 	
 	{
+      "name": "dreamdraft",
+      "tmpl": "dreamdraft.png",
+      "region": [117, 95, 152, 110],
+      "threshold": 0.80,
+	  "clickX": 90, "clickY": 113,
+      "sigmaX": 2, "sigmaY": 2,
+      "cooldownMs": 1000, "tapMs": 130,
+	  "colorMode" : "color_only",
+	  "colorChecks": [
+		  {
+			"x": 78,
+			"y": 114,
+			"r": 255,
+			"g": 255,
+			"b": 255,
+			"tol": 20
+		  },
+		  {
+			"x": 107,
+			"y": 113,
+			"r": 251,
+			"g": 54,
+			"b": 54,
+			"tol": 20
+		  },
+		  {
+			"x": 135,
+			"y": 114,
+			"r": 89,
+			"g": 225,
+			"b": 0,
+			"tol": 20
+		  },
+		  {
+			"x": 236,
+			"y": 110,
+			"r": 10,
+			"g": 27,
+			"b": 42,
+			"tol": 20
+		  }
+		]
+ 
+    },
+	
+	{
 		
       "name": "precareer",
       "tmpl": "precareer.png",
