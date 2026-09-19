@@ -258,6 +258,64 @@
     },
 	
 	{
+      "name": "customise",
+      "tmpl": "customise.png",
+      "region": [117, 95, 152, 110],
+      "threshold": 0.80,
+	  "clicks": [
+		{ "x": 210,  "y": 124,  "delayAfterMs": 3000 },
+		{ "x": 60,  "y": 55,  "delayAfterMs": 3000 },   		
+		{ "x": 7, "y": 6, "delayAfterMs": 3000 }
+		],
+      "sigmaX": 5, "sigmaY": 5,
+      "cooldownMs": 1000, "tapMs": 130,
+	  "colorMode" : "color_only",
+	  "colorChecks": [
+		  {
+			"x": 94,
+			"y": 75,
+			"r": 186,
+			"g": 206,
+			"b": 219,
+			"tol": 20
+		  },
+		  {
+			"x": 101,
+			"y": 80,
+			"r": 240,
+			"g": 245,
+			"b": 248,
+			"tol": 20
+		  },
+		  {
+			"x": 108,
+			"y": 77,
+			"r": 223,
+			"g": 232,
+			"b": 239,
+			"tol": 20
+		  },
+		  {
+			"x": 114,
+			"y": 74,
+			"r": 223,
+			"g": 232,
+			"b": 238,
+			"tol": 20
+		  },
+		  {
+			"x": 120,
+			"y": 80,
+			"r": 241,
+			"g": 245,
+			"b": 248,
+			"tol": 20
+		  }
+		]
+ 
+    },
+	
+	{
 		
       "name": "precareer",
       "tmpl": "precareer.png",
