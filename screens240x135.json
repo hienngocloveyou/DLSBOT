@@ -507,160 +507,157 @@
     },
 	
 	{
-      "name": "newdivision",
-      "tmpl": "newdivision.png",
+      "name": "scouts",
+      "tmpl": "scouts.png",
       "region": [117, 95, 152, 110],
       "threshold": 0.80,
-	  "clickX": 8, "clickY": 25,
+	  "clicks": [
+		{ "x": 150,  "y": 123,  "delayAfterMs": 3000 },   
+		{ "x": 213, "y": 40,  "delayAfterMs": 3000 },  
+		{ "x": 67, "y": 71, "delayAfterMs": 3000 }
+		
+		],
       "sigmaX": 2, "sigmaY": 2,
       "cooldownMs": 1000, "tapMs": 130,
 	  "colorMode" : "color_only",
 	  "colorChecks": [
 		  {
-			"x": 8,
-			"y": 20,
-			"r": 247,
-			"g": 215,
-			"b": 216,
-			"tol": 20
-		  },
-		  {
-			"x": 6,
-			"y": 23,
-			"r": 200,
-			"g": 2,
-			"b": 3,
-			"tol": 20
-		  },
-		  {
-			"x": 14,
-			"y": 20,
-			"r": 240,
-			"g": 175,
-			"b": 176,
-			"tol": 20
-		  },
-		  {
-			"x": 21,
-			"y": 19,
-			"r": 250,
-			"g": 228,
-			"b": 229,
-			"tol": 20
-		  },
-		  {
-			"x": 29,
-			"y": 20,
-			"r": 252,
-			"g": 234,
-			"b": 235,
-			"tol": 20
-		  },
-		  {
-			"x": 39,
-			"y": 20,
-			"r": 250,
-			"g": 226,
-			"b": 227,
-			"tol": 20
-		  }
-		]
- 
-    },
-	
-	{
-      "name": "newdivision_next",
-      "tmpl": "newdivision_next.png",
-      "region": [117, 95, 152, 110],
-      "threshold": 0.80,
-	  "clickX": 140, "clickY": 130,
-      "sigmaX": 2, "sigmaY": 2,
-      "cooldownMs": 1000, "tapMs": 130,
-	  "colorMode" : "color_only",
-	  "colorChecks": [
-		  {
-			"x": 150,
-			"y": 33,
-			"r": 0,
-			"g": 255,
-			"b": 0,
-			"tol": 20
-		  },
-		  {
-			"x": 195,
-			"y": 32,
-			"r": 255,
-			"g": 0,
-			"b": 0,
-			"tol": 20
-		  },
-		  {
-			"x": 17,
-			"y": 22,
-			"r": 0,
-			"g": 0,
-			"b": 0,
-			"tol": 20
-		  },
-		  {
-			"x": 28,
-			"y": 22,
-			"r": 0,
-			"g": 0,
-			"b": 0,
-			"tol": 20
-		  }
-		]
- 
-    },
-	
-	{
-      "name": "newdivision_next1",
-      "tmpl": "newdivision_next1.png",
-      "region": [117, 95, 152, 110],
-      "threshold": 0.80,
-	  "clickX": 140, "clickY": 130,
-      "sigmaX": 2, "sigmaY": 2,
-      "cooldownMs": 1000, "tapMs": 130,
-	  "colorMode" : "color_only",
-	  "colorChecks": [
-		  {
-			"x": 97,
-			"y": 129,
-			"r": 224,
-			"g": 228,
+			"x": 102,
+			"y": 74,
+			"r": 211,
+			"g": 223,
 			"b": 232,
 			"tol": 20
 		  },
 		  {
 			"x": 107,
-			"y": 129,
-			"r": 225,
+			"y": 77,
+			"r": 213,
 			"g": 226,
-			"b": 228,
+			"b": 233,
 			"tol": 20
 		  },
 		  {
-			"x": 118,
-			"y": 129,
-			"r": 204,
-			"g": 211,
-			"b": 221,
+			"x": 117,
+			"y": 74,
+			"r": 222,
+			"g": 231,
+			"b": 237,
+			"tol": 20
+		  },
+		  {
+			"x": 124,
+			"y": 80,
+			"r": 240,
+			"g": 245,
+			"b": 248,
 			"tol": 20
 		  },
 		  {
 			"x": 131,
-			"y": 130,
-			"r": 239,
-			"g": 240,
-			"b": 240,
+			"y": 74,
+			"r": 222,
+			"g": 231,
+			"b": 237,
 			"tol": 20
 		  }
 		]
  
     },
 	
+	{
+      "name": "scoutscancel",
+      "tmpl": "scoutscancel.png",
+      "region": [117, 95, 152, 110],
+      "threshold": 0.80,
+	  "clicks": [
+		{ "x": 120,  "y": 110,  "delayAfterMs": 3000 },   
+		{ "x": 90, "y": 80,  "delayAfterMs": 3000 }
+		
+		
+		],
+      "sigmaX": 2, "sigmaY": 2,
+      "cooldownMs": 1000, "tapMs": 130,
+	  "colorMode" : "color_only",
+	  "colorChecks": [
+		  {
+			"x": 107,
+			"y": 93,
+			"r": 251,
+			"g": 199,
+			"b": 66,
+			"tol": 20
+		  },
+		  {
+			"x": 129,
+			"y": 93,
+			"r": 251,
+			"g": 199,
+			"b": 66,
+			"tol": 20
+		  },
+		  {
+			"x": 106,
+			"y": 110,
+			"r": 11,
+			"g": 66,
+			"b": 109,
+			"tol": 20
+		  }
+		]
+ 
+    },
 	
+	{
+      "name": "physios",
+      "tmpl": "physios.png",
+      "region": [117, 95, 152, 110],
+      "threshold": 0.80,
+	  "clicks": [
+		{ "x": 92,  "y": 120,  "delayAfterMs": 3000 },   
+		{ "x": 25, "y": 47,  "delayAfterMs": 3000 },
+		{ "x": 67, "y": 115,  "delayAfterMs": 3000 }
+		
+		],
+      "sigmaX": 2, "sigmaY": 2,
+      "cooldownMs": 1000, "tapMs": 130,
+	  "colorMode" : "color_only",
+	  "colorChecks": [
+		  {
+			"x": 99,
+			"y": 74,
+			"r": 221,
+			"g": 230,
+			"b": 237,
+			"tol": 20
+		  },
+		  {
+			"x": 108,
+			"y": 77,
+			"r": 217,
+			"g": 228,
+			"b": 235,
+			"tol": 20
+		  },
+		  {
+			"x": 115,
+			"y": 78,
+			"r": 231,
+			"g": 238,
+			"b": 243,
+			"tol": 20
+		  },
+		  {
+			"x": 121,
+			"y": 75,
+			"r": 177,
+			"g": 199,
+			"b": 214,
+			"tol": 20
+		  }
+		]
+ 
+    },
 	
 	{
 		
@@ -1048,6 +1045,160 @@
 			"tol": 20
 		  }
 		]
+    }
+	
+	{
+      "name": "newdivision",
+      "tmpl": "newdivision.png",
+      "region": [117, 95, 152, 110],
+      "threshold": 0.80,
+	  "clickX": 8, "clickY": 25,
+      "sigmaX": 2, "sigmaY": 2,
+      "cooldownMs": 1000, "tapMs": 130,
+	  "colorMode" : "color_only",
+	  "colorChecks": [
+		  {
+			"x": 8,
+			"y": 20,
+			"r": 247,
+			"g": 215,
+			"b": 216,
+			"tol": 20
+		  },
+		  {
+			"x": 6,
+			"y": 23,
+			"r": 200,
+			"g": 2,
+			"b": 3,
+			"tol": 20
+		  },
+		  {
+			"x": 14,
+			"y": 20,
+			"r": 240,
+			"g": 175,
+			"b": 176,
+			"tol": 20
+		  },
+		  {
+			"x": 21,
+			"y": 19,
+			"r": 250,
+			"g": 228,
+			"b": 229,
+			"tol": 20
+		  },
+		  {
+			"x": 29,
+			"y": 20,
+			"r": 252,
+			"g": 234,
+			"b": 235,
+			"tol": 20
+		  },
+		  {
+			"x": 39,
+			"y": 20,
+			"r": 250,
+			"g": 226,
+			"b": 227,
+			"tol": 20
+		  }
+		]
+ 
+    },
+	
+	{
+      "name": "newdivision_next",
+      "tmpl": "newdivision_next.png",
+      "region": [117, 95, 152, 110],
+      "threshold": 0.80,
+	  "clickX": 140, "clickY": 130,
+      "sigmaX": 2, "sigmaY": 2,
+      "cooldownMs": 1000, "tapMs": 130,
+	  "colorMode" : "color_only",
+	  "colorChecks": [
+		  {
+			"x": 150,
+			"y": 33,
+			"r": 0,
+			"g": 255,
+			"b": 0,
+			"tol": 20
+		  },
+		  {
+			"x": 195,
+			"y": 32,
+			"r": 255,
+			"g": 0,
+			"b": 0,
+			"tol": 20
+		  },
+		  {
+			"x": 17,
+			"y": 22,
+			"r": 0,
+			"g": 0,
+			"b": 0,
+			"tol": 20
+		  },
+		  {
+			"x": 28,
+			"y": 22,
+			"r": 0,
+			"g": 0,
+			"b": 0,
+			"tol": 20
+		  }
+		]
+ 
+    },
+	
+	{
+      "name": "newdivision_next1",
+      "tmpl": "newdivision_next1.png",
+      "region": [117, 95, 152, 110],
+      "threshold": 0.80,
+	  "clickX": 140, "clickY": 130,
+      "sigmaX": 2, "sigmaY": 2,
+      "cooldownMs": 1000, "tapMs": 130,
+	  "colorMode" : "color_only",
+	  "colorChecks": [
+		  {
+			"x": 97,
+			"y": 129,
+			"r": 224,
+			"g": 228,
+			"b": 232,
+			"tol": 20
+		  },
+		  {
+			"x": 107,
+			"y": 129,
+			"r": 225,
+			"g": 226,
+			"b": 228,
+			"tol": 20
+		  },
+		  {
+			"x": 118,
+			"y": 129,
+			"r": 204,
+			"g": 211,
+			"b": 221,
+			"tol": 20
+		  },
+		  {
+			"x": 131,
+			"y": 130,
+			"r": 239,
+			"g": 240,
+			"b": 240,
+			"tol": 20
+		  }
+		]
+ 
     }
 	
 	
