@@ -1249,6 +1249,68 @@
     },
 	
 	{
+      "name": "newdivision_next2",
+      "tmpl": "newdivision_next2.png",
+      "region": [117, 95, 152, 110],
+      "threshold": 0.80,
+	  "clickX": 140, "clickY": 130,
+      "sigmaX": 2, "sigmaY": 2,
+      "cooldownMs": 1000, "tapMs": 130,
+	  "colorMode" : "color_only",
+	  "colorChecks": [
+		  {
+			"x": 137,
+			"y": 128,
+			"r": 111,
+			"g": 119,
+			"b": 129,
+			"tol": 20
+		  },
+		  {
+			"x": 139,
+			"y": 130,
+			"r": 208,
+			"g": 210,
+			"b": 212,
+			"tol": 20
+		  },
+		  {
+			"x": 138,
+			"y": 132,
+			"r": 239,
+			"g": 240,
+			"b": 241,
+			"tol": 20
+		  },
+		  {
+			"x": 140,
+			"y": 129,
+			"r": 188,
+			"g": 191,
+			"b": 195,
+			"tol": 20
+		  },
+		  {
+			"x": 141,
+			"y": 130,
+			"r": 226,
+			"g": 228,
+			"b": 230,
+			"tol": 20
+		  },
+		  {
+			"x": 141,
+			"y": 132,
+			"r": 167,
+			"g": 170,
+			"b": 176,
+			"tol": 20
+		  }
+		]
+ 
+    },
+	
+	{
       "name": "newdivision_claimbig",
       "tmpl": "newdivision_claimbig.png",
       "region": [117, 95, 152, 110],
