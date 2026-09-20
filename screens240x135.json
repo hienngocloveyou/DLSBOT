@@ -1345,7 +1345,7 @@
       "tmpl": "newdivision_claimchild4.png",
       "region": [117, 95, 152, 110],
       "threshold": 0.80,
-	  "clickX": 180, "clickY": 83,
+	  "clickX": 180, "clickY": 112,
       "sigmaX": 2, "sigmaY": 2,
       "cooldownMs": 1000, "tapMs": 130,
 	  "colorMode" : "color_only",
