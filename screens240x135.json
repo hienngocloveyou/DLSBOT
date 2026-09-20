@@ -1246,15 +1246,237 @@
 		  }
 		]
  
+    },
+	
+	{
+      "name": "newdivision_claimbig",
+      "tmpl": "newdivision_claimbig.png",
+      "region": [117, 95, 152, 110],
+      "threshold": 0.80,
+	  "clickX": 150, "clickY": 82,
+      "sigmaX": 2, "sigmaY": 2,
+      "cooldownMs": 1000, "tapMs": 130,
+	  "colorMode" : "color_only",
+	  "colorChecks": [
+		  {
+			"x": 105,
+			"y": 81,
+			"r": 9,
+			"g": 71,
+			"b": 117,
+			"tol": 20
+		  },
+		  {
+			"x": 134,
+			"y": 81,
+			"r": 100,
+			"g": 233,
+			"b": 0,
+			"tol": 20
+		  },
+		  {
+			"x": 100,
+			"y": 50,
+			"r": 254,
+			"g": 254,
+			"b": 254,
+			"tol": 20
+		  },
+		  {
+			"x": 114,
+			"y": 52,
+			"r": 190,
+			"g": 208,
+			"b": 220,
+			"tol": 20
+		  }
+		]
+ 
+    },
+	
+	{
+      "name": "newdivision_claimchild1",
+      "tmpl": "newdivision_claimchild1.png",
+      "region": [117, 95, 152, 110],
+      "threshold": 0.80,
+	  "clickX": 180, "clickY": 33,
+      "sigmaX": 2, "sigmaY": 2,
+      "cooldownMs": 1000, "tapMs": 130,
+	  "colorMode" : "color_only",
+	  "colorChecks": [
+		  {
+			"x": 97,
+			"y": 13,
+			"r": 252,
+			"g": 253,
+			"b": 253,
+			"tol": 20
+		  },
+		  {
+			"x": 104,
+			"y": 13,
+			"r": 202,
+			"g": 208,
+			"b": 217,
+			"tol": 20
+		  },
+		  {
+			"x": 112,
+			"y": 13,
+			"r": 197,
+			"g": 201,
+			"b": 208,
+			"tol": 20
+		  },
+		  {
+			"x": 180,
+			"y": 30,
+			"r": 120,
+			"g": 248,
+			"b": 0,
+			"tol": 20
+		  }
+		]
+ 
+    },
+	
+	{
+      "name": "newdivision_claimchild2",
+      "tmpl": "newdivision_claimchild2.png",
+      "region": [117, 95, 152, 110],
+      "threshold": 0.80,
+	  "clickX": 180, "clickY": 58,
+      "sigmaX": 2, "sigmaY": 2,
+      "cooldownMs": 1000, "tapMs": 130,
+	  "colorMode" : "color_only",
+	  "colorChecks": [
+		  {
+			"x": 97,
+			"y": 13,
+			"r": 252,
+			"g": 253,
+			"b": 253,
+			"tol": 20
+		  },
+		  {
+			"x": 104,
+			"y": 13,
+			"r": 202,
+			"g": 208,
+			"b": 217,
+			"tol": 20
+		  },
+		  {
+			"x": 112,
+			"y": 13,
+			"r": 197,
+			"g": 201,
+			"b": 208,
+			"tol": 20
+		  },
+		  {
+			"x": 180,
+			"y": 57,
+			"r": 120,
+			"g": 248,
+			"b": 0,
+			"tol": 20
+		  }
+		]
+ 
+    },
+	
+	{
+      "name": "newdivision_claimchild3",
+      "tmpl": "newdivision_claimchild3.png",
+      "region": [117, 95, 152, 110],
+      "threshold": 0.80,
+	  "clickX": 180, "clickY": 83,
+      "sigmaX": 2, "sigmaY": 2,
+      "cooldownMs": 1000, "tapMs": 130,
+	  "colorMode" : "color_only",
+	  "colorChecks": [
+		  {
+			"x": 97,
+			"y": 13,
+			"r": 252,
+			"g": 253,
+			"b": 253,
+			"tol": 20
+		  },
+		  {
+			"x": 104,
+			"y": 13,
+			"r": 202,
+			"g": 208,
+			"b": 217,
+			"tol": 20
+		  },
+		  {
+			"x": 112,
+			"y": 13,
+			"r": 197,
+			"g": 201,
+			"b": 208,
+			"tol": 20
+		  },
+		  {
+			"x": 180,
+			"y": 83,
+			"r": 118,
+			"g": 246,
+			"b": 0,
+			"tol": 20
+		  }
+		]
+ 
+    },
+	
+	{
+      "name": "newdivision_claimchild4",
+      "tmpl": "newdivision_claimchild4.png",
+      "region": [117, 95, 152, 110],
+      "threshold": 0.80,
+	  "clickX": 180, "clickY": 83,
+      "sigmaX": 2, "sigmaY": 2,
+      "cooldownMs": 1000, "tapMs": 130,
+	  "colorMode" : "color_only",
+	  "colorChecks": [
+		  {
+			"x": 97,
+			"y": 13,
+			"r": 252,
+			"g": 253,
+			"b": 253,
+			"tol": 20
+		  },
+		  {
+			"x": 104,
+			"y": 13,
+			"r": 202,
+			"g": 208,
+			"b": 217,
+			"tol": 20
+		  },
+		  {
+			"x": 112,
+			"y": 13,
+			"r": 197,
+			"g": 201,
+			"b": 208,
+			"tol": 20
+		  },
+		  {
+			"x": 180,
+			"y": 109,
+			"r": 118,
+			"g": 246,
+			"b": 0,
+			"tol": 20
+		  }
+		]
+ 
     }
-	
-	
-	
-	
-	
-	
-	
-	
 	
 	
 	
