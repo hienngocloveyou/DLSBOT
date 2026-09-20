@@ -795,6 +795,52 @@
     },
 	
 	{
+      "name": "upgradestadium3",
+      "tmpl": "upgradestadium3.png",
+      "region": [117, 95, 152, 110],
+      "threshold": 0.80,
+	  "clickX": 90, "clickY": 89,
+      "sigmaX": 2, "sigmaY": 2,
+      "cooldownMs": 1000, "tapMs": 130,
+	  "colorMode" : "color_only",
+	  "colorChecks": [
+		  {
+			"x": 75,
+			"y": 89,
+			"r": 11,
+			"g": 66,
+			"b": 109,
+			"tol": 20
+		  },
+		  {
+			"x": 105,
+			"y": 88,
+			"r": 9,
+			"g": 71,
+			"b": 117,
+			"tol": 20
+		  },
+		  {
+			"x": 135,
+			"y": 91,
+			"r": 235,
+			"g": 251,
+			"b": 227,
+			"tol": 20
+		  },
+		  {
+			"x": 140,
+			"y": 87,
+			"r": 107,
+			"g": 238,
+			"b": 0,
+			"tol": 20
+		  }
+		]
+ 
+    },
+	
+	{
 		
       "name": "precareer",
       "tmpl": "precareer.png",
