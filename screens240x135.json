@@ -705,6 +705,94 @@
  
     },
 	
+	{
+      "name": "upgradestadium1",
+      "tmpl": "upgradestadium1.png",
+      "region": [117, 95, 152, 110],
+      "threshold": 0.80,
+	  "clickX": 120, "clickY": 107,
+      "sigmaX": 2, "sigmaY": 2,
+      "cooldownMs": 1000, "tapMs": 130,
+	  "colorMode" : "color_only",
+	  "colorChecks": [
+		  {
+			"x": 75,
+			"y": 28,
+			"r": 199,
+			"g": 214,
+			"b": 224,
+			"tol": 20
+		  },
+		  {
+			"x": 132,
+			"y": 23,
+			"r": 245,
+			"g": 247,
+			"b": 249,
+			"tol": 20
+		  },
+		  {
+			"x": 119,
+			"y": 107,
+			"r": 93,
+			"g": 227,
+			"b": 0,
+			"tol": 20
+		  }
+		]
+ 
+    },
+	
+	{
+      "name": "upgradestadium2",
+      "tmpl": "upgradestadium2.png",
+      "region": [117, 95, 152, 110],
+      "threshold": 0.80,
+	  "clicks": [
+		{ "x": 127,  "y": 125,  "delayAfterMs": 3000 },   	
+		{ "x": 170, "y": 45, "delayAfterMs": 3000 },
+		{ "x": 8, "y": 6, "delayAfterMs": 3000 },
+		{ "x": 90, "y": 89, "delayAfterMs": 3000 }
+		],
+      "sigmaX": 2, "sigmaY": 2,
+      "cooldownMs": 1000, "tapMs": 130,
+	  "colorMode" : "color_only",
+	  "colorChecks": [
+		  {
+			"x": 50,
+			"y": 35,
+			"r": 180,
+			"g": 202,
+			"b": 216,
+			"tol": 20
+		  },
+		  {
+			"x": 67,
+			"y": 34,
+			"r": 225,
+			"g": 234,
+			"b": 240,
+			"tol": 20
+		  },
+		  {
+			"x": 127,
+			"y": 126,
+			"r": 238,
+			"g": 241,
+			"b": 244,
+			"tol": 20
+		  },
+		  {
+			"x": 137,
+			"y": 124,
+			"r": 8,
+			"g": 72,
+			"b": 120,
+			"tol": 20
+		  }
+		]
+ 
+    },
 	
 	{
 		
@@ -1541,8 +1629,8 @@
     },
 	
 	{
-      "name": "upgradestadium",
-      "tmpl": "upgradestadium.png",
+      "name": "newdivision_upgradestadium",
+      "tmpl": "newdivision_upgradestadium.png",
       "region": [117, 95, 152, 110],
       "threshold": 0.80,
 	  "clickX": 140, "clickY": 130,
