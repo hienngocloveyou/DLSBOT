@@ -1056,6 +1056,53 @@
     },
 	
 	{
+      "name": "dp",
+      "tmpl": "dp.png",
+      "region": [160, 137, 188, 165],
+      "threshold": 0.70,
+      "clickX": 219, "clickY": 21,
+      "sigmaX": 2, "sigmaY": 2,        
+      "cooldownMs": 1000, "tapMs": 130,
+	  "action": "result",
+	  "colorMode" : "color_only",
+	  "colorChecks": [
+		  {
+			"x": 118,
+			"y": 23,
+			"r": 210,
+			"g": 222,
+			"b": 230,
+			"tol": 20
+		  },
+		  {
+			"x": 127,
+			"y": 23,
+			"r": 215,
+			"g": 226,
+			"b": 233,
+			"tol": 20
+		  },
+		  {
+			"x": 139,
+			"y": 23,
+			"r": 229,
+			"g": 236,
+			"b": 241,
+			"tol": 20
+		  },
+		  {
+			"x": 219,
+			"y": 21,
+			"r": 255,
+			"g": 255,
+			"b": 255,
+			"tol": 20
+		  }
+		]
+    },
+	
+	
+	{
       "name": "play",
       "tmpl": "play.png",
       "region": [280, 165, 300, 175],
