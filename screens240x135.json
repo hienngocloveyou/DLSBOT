@@ -887,6 +887,68 @@
     },
 	
 	{
+      "name": "clan",
+      "tmpl": "clan.png",
+      "region": [117, 95, 152, 110],
+      "threshold": 0.80,
+      "clickX": 220, "clickY": 6,
+	  "clicks": [
+		{ "x": 220,  "y": 6,  "delayAfterMs": 3000 },   
+		{ "x": 195, "y": 100, "delayAfterMs": 3000 },  
+		{ "x": 209, "y": 23, "delayAfterMs": 3000 },
+		{ "x": 204,  "y": 33,  "delayAfterMs": 3000 }
+		],
+      "sigmaX": 1, "sigmaY": 1,
+      "cooldownMs": 1000, "tapMs": 130,
+	  "colorMode" : "color_only",
+	  "colorChecks": [
+		  {
+			"x": 153,
+			"y": 35,
+			"r": 206,
+			"g": 219,
+			"b": 229,
+			"tol": 20
+		  },
+		  {
+			"x": 161,
+			"y": 35,
+			"r": 241,
+			"g": 245,
+			"b": 247,
+			"tol": 20
+		  },
+		  {
+			"x": 169,
+			"y": 32,
+			"r": 235,
+			"g": 241,
+			"b": 244,
+			"tol": 20
+		  },
+		  {
+			"x": 177,
+			"y": 35,
+			"r": 246,
+			"g": 249,
+			"b": 250,
+			"tol": 20
+		  },
+		  {
+			"x": 184,
+			"y": 32,
+			"r": 229,
+			"g": 236,
+			"b": 241,
+			"tol": 20
+		  }
+		]
+	  
+	  
+	  
+    },
+	
+	{
 		
       "name": "precareer",
       "tmpl": "precareer.png",
