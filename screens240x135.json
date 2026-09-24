@@ -949,6 +949,44 @@
     },
 	
 	{
+      "name": "attention",
+      "tmpl": "attention.png",
+      "region": [160, 137, 188, 165],
+      "threshold": 0.70,
+      "clickX": 140, "clickY": 90,
+      "sigmaX": 2, "sigmaY": 2,        
+      "cooldownMs": 1000, "tapMs": 130,
+	  "action": "result",
+	  "colorMode" : "color_only",
+	  "colorChecks": [
+		  {
+			"x": 79,
+			"y": 90,
+			"r": 93,
+			"g": 227,
+			"b": 0,
+			"tol": 20
+		  },
+		  {
+			"x": 134,
+			"y": 90,
+			"r": 11,
+			"g": 66,
+			"b": 109,
+			"tol": 20
+		  },
+		  {
+			"x": 139,
+			"y": 90,
+			"r": 255,
+			"g": 255,
+			"b": 255,
+			"tol": 20
+		  }
+		]
+    },
+	
+	{
 		
       "name": "precareer",
       "tmpl": "precareer.png",
