@@ -2,7 +2,53 @@
   "version": 1,
   "screens": [
 	
-	
+	{
+      "name": "toppickdiscard",
+      "tmpl": "toppickdiscard.png",
+      "region": [117, 95, 152, 110],
+      "threshold": 0.80,
+      "clickX": 90, "clickY": 115,
+      "sigmaX": 1, "sigmaY": 1,
+      "cooldownMs": 1000, "tapMs": 130,
+	  "colorMode" : "color_only",
+	  "colorChecks": [
+		  {
+			"x": 90,
+			"y": 112,
+			"r": 5,
+			"g": 81,
+			"b": 134,
+			"tol": 20
+		  },
+		  {
+			"x": 149,
+			"y": 112,
+			"r": 116,
+			"g": 245,
+			"b": 0,
+			"tol": 20
+		  },
+		  {
+			"x": 88,
+			"y": 116,
+			"r": 212,
+			"g": 221,
+			"b": 228,
+			"tol": 20
+		  },
+		  {
+			"x": 99,
+			"y": 114,
+			"r": 200,
+			"g": 214,
+			"b": 225,
+			"tol": 20
+		  }
+		]
+	  
+	  
+	  
+    },
 	
 	{
       "name": "toppick",
