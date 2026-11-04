@@ -1,6 +1,25 @@
 {
-  "version": 1,
+  "version": 1.1,
   "screens": [
+	
+	{
+      "name": "information",
+      "tmpl": "information.png",
+      "region": [117, 95, 152, 110],
+      "threshold": 0.80,
+      "clickX": 85, "clickY": 80,
+      "sigmaX": 1, "sigmaY": 1,
+      "cooldownMs": 1000, "tapMs": 130,
+	  "colorMode" : "color_only",
+	  "colorChecks": [
+		  {"x": 74, "y": 42, "r": 182, "g": 187, "b": 197, "tol": 20},
+		  {"x": 86, "y": 79, "r": 116, "g": 245, "b": 0, "tol": 20},
+		  {"x": 82, "y": 83, "r": 226, "g": 250, "b": 210, "tol": 20}
+					]
+	  
+	  
+	  
+    },
 	
 	{
       "name": "toppickdiscard",
